@@ -1,4 +1,35 @@
-BlogArticles
-============
+========
+# 关于BlogCode
+=======
+* 本仓库主要记录自己平时学习积累的一些源代码、开发框架的资源以及一些技术网站和博客链接。
+  * 开发语言和框架
+  * IT技术网站链接 
+  * 技术博客链接
 
-记录一些有用的博客链接和知识点。
+## Note
+* 1、开发语言和框架相关
+  * Cocos2d-Html5
+  * Cocos2d-x
+  * DataBases
+  * HeadFirstBook
+  * JavaScript
+  * Linux
+  * OpenGL
+  * PHP
+  * Swift
+
+* 2、IT技术网站链接
+  * 著名的IT英文站点,见文件：[it_famous_website.md](it_famous_website.md)
+ 
+  * 学习C++、VC++、QT的相关网站,见文件：[Cplusplus_learn_website.md](Cplusplus_learn_website.md)
+   
+  * 游戏开发类网站,见文件：[game_dev_website.md](game_dev_website.md)
+   
+
+* 3、技术类博客链接,见文件：[technique_blog_link.md](technique_blog_link.md)
+
+
+
+
+
+
