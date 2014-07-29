@@ -8,7 +8,7 @@
 我使用的系统平台是：Windows7+VMware Workstation9.0 + Ubuntu12.04，首先要保证虚拟机里面的Linux系统与Windowx主机能够互相ping通。
 步骤如下：
 1.先要安装Samba
-``
+```
 sudo apt-get install samba openssh-server
 ```
 
