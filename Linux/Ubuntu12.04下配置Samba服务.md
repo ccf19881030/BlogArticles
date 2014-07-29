@@ -2,17 +2,17 @@
 - 1、[ubuntu12.04samba服务器配置](http://www.cnblogs.com/king-77024128/articles/2666298.html)
 - 2、[ubuntu下的Samba配置：使每个用户可以用自己的用户名和密码登录自己的home目录](http://blog.csdn.net/fly_qj/article/details/21744797)
 
-## 使用Samba服务使Windows7可以访问Vmware中的Ubuntu12.04的home用户目录
-----------------------------------------------------------------------
-在Vmware或者VritualBox下安装好Ubuntu12.04之后，如果想要在Windows下访问虚拟机下的Ubuntu12.04，比较好的方式当然是使用Samba服务了。我使用的系统平台是：Windows7+VMware Workstation9.0 + Ubuntu12.04，首先要保证虚拟机里面的Linux系统与Windowx主机能够互相ping通。
-----
+## 使用Samba服务使Windows7可以访问Vmware9.0中的Ubuntu12.04的home用户目录
+
+在Vmware9.0下安装好Ubuntu12.04之后，想要在Windows7下访问虚拟机下的Ubuntu12.04，比较好的方式当然是使用Samba服务了。我使用的系统平台是：Windows7+VMware Workstation9.0 + Ubuntu12.04，当然首先要保证Vmware虚拟机里面的Ubuntu12.04系统与Windows7主机能够互相ping通。
+
 步骤如下：
 - 1.先要安装Samba
 ```
 sudo apt-get install samba openssh-server
 ```
 
-- 2.编译Samba配置文件
+- 2.编辑Samba配置文件
 ```
 sudo vi /etc/samba/smb.conf
 ```
@@ -36,7 +36,7 @@ sudo vi /etc/samba/smb.conf
 # The following parameter makes sure that only "username" can connect
 #
 # This might need tweaking when using external authentication schemes
-   valid users = %S #本行需要取消注释
+   valid users = %S
 ```
 
 如上修改完成后wq保存退出！
@@ -54,11 +54,11 @@ sudo smbpasswd -a reddy
 ```
 根据提示输入两次密码即可。
 
-- 5.现在可以测试了，在Window7下输入samba地址尝试登录：
+- 5.现在可以测试了，在Window7下选择【我的电脑】->【工具】-> 【映射网络驱动器】，按照\\server\\share的格式输入相应的Ubuntu12.04下的IP地址和home用户如reddy：
 ```
 \\10.0.0.2\reddy
 ```
-- 6.此时windows应该会弹出窗口要求输入用户名和密码了，输入吧。Enjoy！
+- 6.此时windows7应该会弹出窗口要求输入用户名和密码了，输入吧。Enjoy！
 
 
 
