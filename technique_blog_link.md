@@ -20,6 +20,7 @@
 * Html5 Tricks [http://news.html5tricks.com/](http://news.html5tricks.com/)
   * 程序员自我提高的几点建议 很实诚:[http://news.html5tricks.com/some-tips-for-programmer.html](http://news.html5tricks.com/some-tips-for-programmer.html)
   * 写给年轻程序员的一些建议：[http://news.html5tricks.com/advice-to-young-programmer.html](http://news.html5tricks.com/advice-to-young-programmer.html)
+  * [程序员赚钱致富的6种方法](http://news.html5tricks.com/6-ways-programmer-make-money.html)
 * Github和Git学习
   * Github 中被 Fork 最多的库:[http://www.iteye.com/news/25956](http://www.iteye.com/news/25956)
   * git如何merge github forked repository里的代码更新? [http://www.haojii.com/2011/08/how-to-git-merge-from-forked-repository/](http://www.haojii.com/2011/08/how-to-git-merge-from-forked-repository/)
@@ -103,5 +104,8 @@
 * [Java Developers](http://nsainsbury.svbtle.com/java-developers)
 * [Why C++ is the perfect choice for modern app development](http://betanews.com/2014/07/22/why-c-is-the-perfect-choice-for-modern-app-development/)
 * [C++11 并发指南系列](http://www.cnblogs.com/haippy/category/505027.html)
+* [gabrielecirulli-2048作者的简历](http://gabrielecirulli.com/resume)
+* [程序员应该具备能力](http://www.itjhwd.com/cxyyjbdnl/)
+* [你知道吗？Web的26项基本概念和技术](http://www.yyyweb.com/2369.html)
 
 
