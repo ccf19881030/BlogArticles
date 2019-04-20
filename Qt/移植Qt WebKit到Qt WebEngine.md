@@ -4,5 +4,6 @@
 可以参见QT官网：
 ### 1、[Qt WebEngine](https://doc.qt.io/archives/qt-5.10/qtwebengine-index.html)
 ### 2、[Porting from Qt WebKit to Qt WebEngine](https://doc.qt.io/archives/qt-5.10/qtwebenginewidgets-qtwebkitportingguide.html)
+### 3、[Qt WebEngine Widgets Examples](https://doc.qt.io/archives/qt-5.10/webengine-widgetexamples.html)
+### 4、[Windows下QtCreator使用QWebEngineView](https://blog.csdn.net/m32692529/article/details/78788337)
 
-### 3、[Windows下QtCreator使用QWebEngineView](https://blog.csdn.net/m32692529/article/details/78788337)
