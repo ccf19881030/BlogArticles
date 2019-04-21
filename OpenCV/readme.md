@@ -14,4 +14,6 @@
 
 ### 4、相关项目
 #### 1、[EasyPR--一个开源的中文车牌识别系统](http://www.cnblogs.com/subconscious/p/3979988.html)
-#### 2、[EasyPR-Github](https://github.com/liuruoze/EasyPR)
+##### (I)、[EasyPR-Github](https://github.com/liuruoze/EasyPR)
+##### (II)、[EasyPR--开发详解](http://www.cnblogs.com/asks/p/4372736.html)
+##### (III)、[EasyPR--一个开源的中文车牌识别系统](http://www.cnblogs.com/subconscious/p/3979988.html)
