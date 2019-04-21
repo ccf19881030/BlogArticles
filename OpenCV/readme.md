@@ -11,3 +11,7 @@
 ### 3、OpenCV相关资料
 #### [OpenCV中文网站](http://www.opencv.org.cn)
 #### [OpenCV 4.1.0文档](https://docs.opencv.org/4.1.0/)
+
+### 4、相关项目
+#### 1、[EasyPR--一个开源的中文车牌识别系统](http://www.cnblogs.com/subconscious/p/3979988.html)
+#### 2、[EasyPR-Github](https://github.com/liuruoze/EasyPR)
