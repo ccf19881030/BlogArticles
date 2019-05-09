@@ -32,6 +32,15 @@
 
 * MySQL 5.7 Reference Manual : [http://dev.mysql.com/doc/refman/5.7/en/](http://dev.mysql.com/doc/refman/5.7/en/)
 
+### mariadb
+* [mariadb官网](https://mariadb.com)
+* [MariaDB - 简体中文](https://mariadb.com/kb/zh-cn/mariadb/)
+* [mariadbpp-C++ client library for MariaDB](https://github.com/viaduck/mariadbpp)
+* [mariadb-connector-c](https://github.com/MariaDB/mariadb-connector-c)
+* [MariaDB Connector/C 3.1 Series](https://downloads.mariadb.org/connector-c/)
+* [MariaDB Connector/C API Functions](https://mariadb.com/kb/en/library/mariadb-connectorc-api-functions/)
+* [C中级 MariaDB Connector/C API 编程教程](http://www.cnblogs.com/life2refuel/p/5862496.html)
+
 ### Microsoft SQLServer
 
 * [SQL Server 2014](http://www.microsoft.com/zh-cn/server-cloud/products/sql-server/)
