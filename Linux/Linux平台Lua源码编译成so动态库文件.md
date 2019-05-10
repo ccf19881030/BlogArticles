@@ -49,3 +49,8 @@ cd src && install -p -m 0644 lua.h luaconf.h lualib.h lauxlib.h lua.hpp /usr/loc
 cd src && install -p -m 0644 liblua.a  liblua.so /usr/local/lib
 cd doc && install -p -m 0644 lua.1 luac.1 /usr/local/man/man1
 ```
+
+### 6.C++运行编译lua接口时需要在编译选项中添加头文件和库文件所在路径，以及liblua.a库文件
+```shell
+g++ main.cpp -o main -I/usr/local/include/ -L/usr/local/lib/ -llua
+```
