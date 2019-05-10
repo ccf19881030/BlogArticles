@@ -1,5 +1,5 @@
 ## 参考csdn博客链接：[Linux平台Lua源码如何编译成so动态库文件 - 5.0.2](https://blog.csdn.net/weixin_41399433/article/details/80702932)
- * 不过按照该博客编译lua 5.3.5的源代码，还需要做一些修改，才能成功生成liblua.so文件。主要是他所说的config文件不存在，需要在lua-5.3.5/src/Makefile文件中
+ * 不过按照该博客编译lua 5.3.5的源代码，还需要做一些修改，才能成功生成liblua.so文件。主要是他所说的config文件在lua 5.3.5的源代码中不存在，需要在lua-5.3.5/src/Makefile文件中
  件做对应修改。
 ### 1. lua源码下载路径:
 [https://www.lua.org/ftp/](https://www.lua.org/ftp/)
