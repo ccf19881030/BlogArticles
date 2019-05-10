@@ -16,19 +16,22 @@ cd lua-5.3.5
 LUA_SO=liblua.so
 ALL_T= $(LUA_A) $(LUA_T) $(LUAC_T) $(LUA_SO)
 $(LUA_SO): $(CORE_O) $(LIB_O)
-  $(CC) -o $@ -shared $? -ldl -lm   (注意前面空白部分是Tab符不是空格符)
+  $(CC) -o $@ -shared $? -ldl -lm   #(注意前面空白部分是Tab符不是空格符)
 ```
 
 #### (2)在 /src/Makefile 文件中,
 在 lua-5.3.5/src/Makefile 文件中做如下修改, 
 找到 MYCFLAGS=  ,追加-O2 -fPIC编译选项
 即修改为：
+```shell
 MYCFLAGS= -O2 -fPIC
+```
 
 ### 3. 配置lua-5.3.5目录下的 Makefile文件
 在 lua-5.3.5/Makefile 文件中, 加入如下字符
+```shell
 TO_LIB= liblua.a liblua.so
-
+```
 
 ### 4. 在源代码根目录下执行如下指令.
 haha@ubuntu:~/Programming/software_sources/lua-5.3.5$ 
