@@ -12,6 +12,7 @@ Duilib是一个Windows下免费开源的DirectUI界面库，由于简约易扩�
 #### [https://github.com/duilib/duilib](https://github.com/duilib/duilib)
 #### [腾讯物联网通信 SDK](https://github.com/tencentyun/TIMSDK/tree/master/cross-platform/Windows/IMApp/Basic/duilib)
 #### [网易云信Windows应用界面开发框架（基于Duilib）-NIM_Duilib_Framework](https://github.com/netease-im/NIM_Duilib_Framework)
+#### [DuiLib_Ultimate](https://github.com/qdtroy/DuiLib_Ultimate)
 
 ### 4、SDK for connecting to Tencent Cloud IoT from a device using embedded C.
 #### [SDK for connecting to Tencent Cloud IoT from a device using embedded C.](https://github.com/tencentyun/qcloud-iot-sdk-embedded-c)
