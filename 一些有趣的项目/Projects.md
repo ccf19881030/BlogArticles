@@ -16,3 +16,9 @@ Duilib是一个Windows下免费开源的DirectUI界面库，由于简约易扩�
 
 ### 4、SDK for connecting to Tencent Cloud IoT from a device using embedded C.
 #### [SDK for connecting to Tencent Cloud IoT from a device using embedded C.](https://github.com/tencentyun/qcloud-iot-sdk-embedded-c)
+
+### 5、LaZagne检测windows本地存储的密码
+LaZagne项目是用于检索存储在本地计算机上的大量密码的开源应用程序。 每个软件使用不同的技术（明文，API，自定义算法，数据库等）存储其密码。 该工具的开发是为了找到最常用的软件的密码。
+下载到windows机器，解压后，切换到laZagne目录。cmd执行laZagne.exe all
+即可
+#### [LaZagne](https://github.com/AlessandroZ/LaZagne)
