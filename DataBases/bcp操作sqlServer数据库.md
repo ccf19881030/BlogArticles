@@ -12,6 +12,9 @@ EXEC master.sys.sp_configure 'xp_cmdshell', 1  
 --重新配置  
 RECONFIGURE
 ```
+* [bcp 实用工具-msdn](https://docs.microsoft.com/zh-cn/sql/tools/bcp-utility?view=sql-server-2014)
+* [创建格式化文件 (SQL Server)](https://docs.microsoft.com/zh-cn/sql/relational-databases/import-export/create-a-format-file-sql-server?view=sql-server-2014)
+* [Transact-SQL 语法约定 (Transact-SQL)](https://docs.microsoft.com/zh-cn/sql/t-sql/language-elements/transact-sql-syntax-conventions-transact-sql?view=sql-server-2017)
 * [SQL Server中BCP导入导出用法详解](http://blog.sina.com.cn/s/blog_5ceb51480101gtr5.html)
 * [SQL中通过UTS和BCP批量导入数据到数据库详解](http://blog.sina.com.cn/s/blog_5ceb51480101gyqd.html)
 * [BCP命令提示实用工具](https://blog.csdn.net/u012968272/article/details/45418867)
