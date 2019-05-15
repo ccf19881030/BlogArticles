@@ -14,6 +14,8 @@ RECONFIGURE
 ```
 * [bcp 实用工具-msdn](https://docs.microsoft.com/zh-cn/sql/tools/bcp-utility?view=sql-server-2014)
 * [创建格式化文件 (SQL Server)](https://docs.microsoft.com/zh-cn/sql/relational-databases/import-export/create-a-format-file-sql-server?view=sql-server-2014)
+* [用来导入或导出数据的格式化文件 (SQL Server)](https://docs.microsoft.com/zh-cn/sql/relational-databases/import-export/format-files-for-importing-or-exporting-data-sql-server?view=sql-server-2014)
+* [XML 格式化文件 (SQL Server)](https://docs.microsoft.com/zh-cn/sql/relational-databases/import-export/xml-format-files-sql-server?view=sql-server-2014)
 * [Transact-SQL 语法约定 (Transact-SQL)](https://docs.microsoft.com/zh-cn/sql/t-sql/language-elements/transact-sql-syntax-conventions-transact-sql?view=sql-server-2017)
 * [SQL Server中BCP导入导出用法详解](http://blog.sina.com.cn/s/blog_5ceb51480101gtr5.html)
 * [SQL中通过UTS和BCP批量导入数据到数据库详解](http://blog.sina.com.cn/s/blog_5ceb51480101gyqd.html)
