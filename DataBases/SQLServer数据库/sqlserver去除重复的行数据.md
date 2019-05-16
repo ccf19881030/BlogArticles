@@ -8,7 +8,7 @@ delete mytable
 ```
 3、将临时表插入到表中
 ```sql
-insert mytable select *from #temp
+insert mytable select * from #temp
 ```
 4、释放临时表
 ```sql
