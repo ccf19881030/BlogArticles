@@ -13,6 +13,7 @@ EXEC master.sys.sp_configure 'xp_cmdshell', 1  
 RECONFIGURE
 ```
 * [bcp 实用工具-msdn](https://docs.microsoft.com/zh-cn/sql/tools/bcp-utility?view=sql-server-2014)
+* [指定字段终止符和行终止符 (SQL Server)](https://docs.microsoft.com/zh-cn/sql/relational-databases/import-export/specify-field-and-row-terminators-sql-server?view=sql-server-2014)
 * [创建格式化文件 (SQL Server)](https://docs.microsoft.com/zh-cn/sql/relational-databases/import-export/create-a-format-file-sql-server?view=sql-server-2014)
 * [用来导入或导出数据的格式化文件 (SQL Server)](https://docs.microsoft.com/zh-cn/sql/relational-databases/import-export/format-files-for-importing-or-exporting-data-sql-server?view=sql-server-2014)
 * [XML 格式化文件 (SQL Server)](https://docs.microsoft.com/zh-cn/sql/relational-databases/import-export/xml-format-files-sql-server?view=sql-server-2014)
