@@ -7,7 +7,7 @@ C:\Users\lenovo>netstat -ano | findstr "8080"
 ```
 ### (2)使用taskkill命令杀死对应的进程ID 3940
 ```shell
-C:\Users\lenovo>taskkill /F /PID 3940
+C:\Users\lenovo>taskkill /F /T /PID 3940
 成功: 已终止 PID 为 3940 的进程。
 ```
 
