@@ -1,4 +1,4 @@
-# [c++11特性之override和final关键字](https://www.cnblogs.com/minggong/p/6457726.html
+# [c++11特性之override和final关键字](https://www.cnblogs.com/minggong/p/6457726.html)
 C++11之前，一直没有继承控制关键字。禁用一个类的进一步衍生是可能的但也很棘手。为避免用户在派生类中重载一个虚函数，你不得不向后考虑。
 
 C++ 11添加了两个继承控制关键字：override和final。override确保在派生类中声明的重载函数跟基类的虚函数有相同的签名。final阻止类的进一步派生和虚函数的进一步重载。
