@@ -23,4 +23,5 @@ fclose(fp);
 与 StringStreams 不一样，FileReadStream 是一个字节流。它不处理编码。若文件并非 UTF-8 编码，可以把字节流用 EncodedInputStream 包装。我们很快会讨论这个问题。
 
 除了读取文件，使用者也可以使用 FileReadStream 来读取 stdin。
+# [在线JSON校验格式化工具(Be JSON)](http://www.bejson.com)
 # [C++文件读写详解](https://www.cnblogs.com/hdk1993/p/5853233.html)
