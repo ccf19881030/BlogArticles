@@ -28,3 +28,4 @@ fclose(fp);
 ## [C++文件读写详解](https://www.cnblogs.com/hdk1993/p/5853233.html)
 ## [有一个很大的 json 文件，要如何才能将它读到内存中呢， 4 个多 G](https://tw.v2ex.com/t/460511)
 ## [RAPIDJSON_ASSERT(IsObject()) fails](https://discuss.cocos2d-x.org/t/rapidjson-assert-isobject-fails/20578)
+## [rapidjson 关于json生成 使用 foat，double精度位数问题](https://my.oschina.net/u/2430809/blog/1982216)
