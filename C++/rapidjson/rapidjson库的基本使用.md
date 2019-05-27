@@ -396,4 +396,41 @@ void parse() {
      */
 }
 ```
+
+//遍历解析
+```cpp
+void parse_1()
+{
+    // 这个是用于遍历json数组，用于不知道name的前提下
+    string data = "{\"name\":\"qq849635649\",\"age\":20,\"sex\":true}";
+    rapidjson::Document dom;
+    if(! dom.Parse(data.data()).HasParseError())
+    {
+        for (rapidjson::Value::ConstMemberIterator iter = dom.MemberBegin(); iter != dom.MemberEnd(); ++iter)
+        {
+            string name = (iter->name).GetString();
+            const rapidjson::Value& value = iter->value;
+            if(value.IsString())
+            {
+                cout << name << " : " << value.GetString() << endl;
+            }
+            else if(value.IsInt())
+            {
+                cout << name << " : " << value.GetInt() << endl;
+            }
+            else if(value.IsBool())
+            {
+                cout << name << " : " << value.GetBool() << endl;
+            }
+        }
+    }
+}
+
+int main()
+{
+    //Serialize_1();
+    parse_1();
+    return 0;
+}
+```
 所有的代码都放在上面了，我想不用解释太多，代码浅显易懂。
