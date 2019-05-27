@@ -1,4 +1,6 @@
-## [rapidjson 关于json生成 使用 foat，double精度位数问题](https://my.oschina.net/u/2430809/blog/1982216)直接修改源码位置（标记位置，是需要精确小数后2位改的）：
+## [rapidjson 关于json生成 使用 foat，double精度位数问题](https://my.oschina.net/u/2430809/blog/1982216)
+
+直接修改源码位置（标记位置，是需要精确小数后2位改的）：
 
 有需要的朋友可以参考，节省时间。
 
