@@ -1,0 +1,6 @@
+## [windows环境下通过c++使用redis](https://www.2cto.com/database/201504/387552.html)
+## [C++ 连接Redis数据库_并运行一个简单的例子_Windows平台_VS2017](https://my.oschina.net/u/235558/blog/2991852)
+## [C++使用redis的实例详解](https://www.jb51.net/article/125511.htm)
+## [C++ 使用 hiredis 封装redis 的数据获取接口](https://www.cnblogs.com/oftenlin/p/9487076.html)
+## [c++使用redis个人总结](https://blog.csdn.net/witto_sdy/article/details/81011978)
+## [自己的redis秒杀[生成订单入库]](https://blog.csdn.net/nw_ningwang/article/details/77897212)
