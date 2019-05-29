@@ -50,3 +50,5 @@ void HandleAsyncWrite(char* data, int len)
 不要连续发起异步发送，要等上次发送完成之后再发起下一个异步发送；
 要考虑异步发送的发送队列内存可能会暴涨的问题；
 相比复杂的异步发送，同步发送简单可靠，推荐优先使用同步发送接口。
+
+## [purecpp-一个很酷的modern c++开源社区](http://purecpp.org)
