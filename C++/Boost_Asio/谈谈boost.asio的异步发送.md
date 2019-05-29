@@ -1,4 +1,6 @@
 ## [谈谈boost.asio的异步发送](https://www.cnblogs.com/qicosmos/p/3487169.html)
+## [purecpp一个很酷的modern c++开源社区](http://purecpp.org)
+
 在上一篇博文中提到asio的异步发送稍微复杂一点，有必要单独拿出来说说。asio异步发送复杂的地方在于: 不能连续调用异步发送接口async_write，因为async_write内部是不断调用async_write_some，直到所有的数据发送完成为止。由于async_write调用之后就直接返回了，如果第一次调用async_write发送一个较大的包时，马上又再调用async_write发送一个很小的包时，有可能这时第一次的async_write还在循环调用async_write_some发送，而第二次的async_write要发送的数据很小，一下子就发出去了，这使得第一次发送的数据和第二次发送的数据交织在一起了，导致发送乱序的问题。解决这个问题的方法就是在第一次发送完成之后再发送第二次的数据。具体的做法是用一个发送缓冲区，在异步发送完成之后从缓冲区再取下一个数据包发送。下面看看异步发送的代码是如何实现的。
 ```cpp
 list<MyMessage> m_sendQueue; //发送队列
@@ -50,5 +52,3 @@ void HandleAsyncWrite(char* data, int len)
 不要连续发起异步发送，要等上次发送完成之后再发起下一个异步发送；
 要考虑异步发送的发送队列内存可能会暴涨的问题；
 相比复杂的异步发送，同步发送简单可靠，推荐优先使用同步发送接口。
-
-## [purecpp一个很酷的modern c++开源社区](http://purecpp.org)
