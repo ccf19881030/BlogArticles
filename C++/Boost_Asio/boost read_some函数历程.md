@@ -82,14 +82,16 @@ void ReadSomeFunc()
 			} while (0);
 
 		}
-    ```
-    1)boost asio 接收数据异常 $/x1
+```
+ 
+ 1)boost asio 接收数据异常 $/x1
 
 说明
 
     在发送PLAY指令之后，接收到的数据是$/x1,实际上通过调试服务器端，发现服务器端实际上已经了200 OK过来，因此猜测是接收超时，但是在前面的指令收发都没有问题，尝试在PLAY指令发送之后，接收之前调用Sleep函数睡眠500ms，没有任何的效果，查看如何设置socket超时，也没有相关资料，使用的都是同步的收发
 
 测试代码如下：
+
 ```cpp
 #include <iostream>
 
@@ -347,6 +349,7 @@ return 0;
 
 }
 ```
+
 #### [原文链接：http://blog.51cto.com/fengyuzaitu/1952457](http://blog.51cto.com/fengyuzaitu/1952457)
 
     
