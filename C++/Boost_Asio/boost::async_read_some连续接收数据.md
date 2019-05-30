@@ -1,0 +1,6 @@
+## [boost::async_read_some连续接收数据](https://blog.csdn.net/z21558623/article/details/55253406)
+## [boost::asio 中async_read与async_receive的区别](https://blog.csdn.net/liangzhao_jay/article/details/8796347)
+## [BOOST中read_some和 boost::asio::error::eof(2)错误](https://www.cnblogs.com/lovelylife/p/5536229.html)
+## [boost read_some函数历程](https://yq.aliyun.com/articles/506174?spm=a2c4e.11153940.blogcont317463.21.2a7c7fb5OqsdsJ)
+## [doxygen for www.boost.org-socket.read_some](http://charette.no-ip.com:81/programming/doxygen/boost/classboost_1_1asio_1_1basic__stream__socket.html#a4d0279d8a6684c218aa06851fe64b2fd)
+## [Visual Studio 2015 自动生成 *.VC.db 文件的问题](https://blog.csdn.net/u012611878/article/details/53574480)
