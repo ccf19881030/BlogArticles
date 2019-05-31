@@ -3,5 +3,5 @@
 ## [渐进式JavaScript 框架-vuejs](https://cn.vuejs.org)
 ## [Vuex](https://vuex.vuejs.org/zh/)
 ## [MQTT.js](https://github.com/ccf19881030/MQTT.js)
-## [mqtt-npm](https://www.npmjs.com/package/mqtt[
+## [mqtt-npm](https://www.npmjs.com/package/mqtt)
 ## [VSCode中调试nodejs](http://www.pianshen.com/article/4825129383/)
