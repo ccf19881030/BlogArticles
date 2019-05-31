@@ -1,0 +1,6 @@
+## [Node.js 搭建mqttServer 及 mqttClient](https://blog.csdn.net/lnniyunlong99/article/details/50519946)
+## [expressjs](http://www.expressjs.com.cn/4x/api.html)
+## [渐进式JavaScript 框架-vuejs](https://cn.vuejs.org)
+## [Vuex](https://vuex.vuejs.org/zh/)
+## [MQTT.js](https://github.com/ccf19881030/MQTT.js)
+## [mqtt-npm](https://www.npmjs.com/package/mqtt)
