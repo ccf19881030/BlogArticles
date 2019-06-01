@@ -1,4 +1,5 @@
 ## [Redis可视化工具 Redis Desktop Manager](https://www.cnblogs.com/zheting/p/7670154.html)
+## [Redis可视化工具 Redis Desktop Manager](https://www.cnblogs.com/phpstudy2015-6/p/9536831.html)
 官网下载：https://redisdesktop.com/download
 github地址：https://github.com/uglide/RedisDesktopManager/releases
 
