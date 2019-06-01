@@ -27,4 +27,5 @@
  命令： redis-server --service-start   启动服务
 
  命令：redis-server --service-stop    停止服务
+ 在Windows10中命令窗口输入：services.msc或者在任务管理器中找到【服务】选项卡，打开并找到Redis服务
  ![github上提供的windows版本](images_redis/4.png)
