@@ -1,2 +1,6 @@
 ## [MQTT教學（七）：使用Node.js訂閱MQTT訊息](http://swf.com.tw/?p=1023)
+## [使用Node.js实现mqtt协议](https://www.jianshu.com/p/f421870657fb)
+## [MQTT over WebSockets](http://test.mosquitto.org/ws.html)
+## [使用 WebSocket 客户端连接 MQTT 服务器](https://www.jianshu.com/p/4fd95cae1a9c)
+## [MQTT协议笔记之mqtt.io项目Websocket协议支持](https://blog.csdn.net/tcjy1000/article/details/61427817)
 ## [mosquitto+mqtt.js got “Connection refused: Not authorized”](https://stackoverflow.com/questions/45747442/mosquittomqtt-js-got-connection-refused-not-authorized)
