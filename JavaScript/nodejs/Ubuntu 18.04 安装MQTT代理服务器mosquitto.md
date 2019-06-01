@@ -1,4 +1,4 @@
-## [Ubuntu 18.04 安装MQTT代理服务器](https://blog.csdn.net/lx121451/article/details/81137408)
+## [Ubuntu 18.04 安装MQTT代理服务器mosquitto](https://blog.csdn.net/lx121451/article/details/81137408)
 1. 引入mosquitto仓库并更新
 
 sudo apt-add-repository ppa:mosquitto-dev/mosquitto-ppa
