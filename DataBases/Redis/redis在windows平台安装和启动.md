@@ -9,3 +9,5 @@
  [https://github.com/MicrosoftArchive/redis/releases/tag/win-3.2.100](https://github.com/MicrosoftArchive/redis/releases/tag/win-3.2.100)
 
 百度网盘：[http://pan.baidu.com/s/1hsnaF32](http://pan.baidu.com/s/1hsnaF32)
+![github上提供的windows版本](images_redis/1.png)
+
