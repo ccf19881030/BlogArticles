@@ -1,0 +1,7 @@
+## [MQTT什么鬼？第一讲：介绍](http://www.brixbot.com/coding/mqtt-01-introduction/)
+## [MQTT什么鬼？第二讲：安装MQTT服务器（broker）](http://www.brixbot.com/coding/mqtt-02-install-broker/)
+## [MQTT什么鬼？第三讲：史上最安全的MQTT服务](http://www.brixbot.com/coding/mqtt-03-most-secured-mqtt/)
+## [MQTT什么鬼？第四讲：编译Paho C Windows客户端](http://www.brixbot.com/coding/mqtt-04-build-paho-c-for-windows/)
+## [MQTT什么鬼？第五讲：编译Paho C++ Windows客户端](http://www.brixbot.com/coding/mqtt-05-build-paho-cpp-for-windows/)
+## [MQTT什么鬼？第六讲：Windows下订阅/发布消息的例程](http://www.brixbot.com/coding/mqtt-06-windows-paho-c-examples/)
+## [MQTT什么鬼？第七讲：Android下订阅/发布消息的例程](http://www.brixbot.com/coding/mqtt-07-android-paho-example/)
