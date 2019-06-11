@@ -9,6 +9,7 @@ struct _finddata_t
       time_t time_write;
       _fsize_t size;
       char name[_MAX_FNAME];
+}
 ;
 ```
 该结构体中各成员的变量的含义如下：
