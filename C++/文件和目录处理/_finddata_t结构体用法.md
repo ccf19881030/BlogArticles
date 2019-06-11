@@ -9,8 +9,7 @@ struct _finddata_t
       time_t time_write;
       _fsize_t size;
       char name[_MAX_FNAME];
-}
-;
+};
 ```
 该结构体中各成员的变量的含义如下：
 unsigned atrrib：文件属性的存储位置。它存储一个unsigned单元，用于表示文件的属性。文件属性是用位表示的，主要有以下一些：_A_ARCH（存档）、 _A_HIDDEN（隐藏）、_A_NORMAL（正常）、_A_RDONLY（只读）、_A_SUBDIR（文件夹）、_A_SYSTEM（系统）。这些都是在中定义的宏，可以直接使用，而本身的意义其实是一个无符号整型（只不过这个整型应该是2的几次幂，从而保证只有一位为 1，而其他位为0）。既然是位表示，那么当一个文件有多个属性时，它往往是通过位或的方式，来得到几个属性的综合。例如只读+隐藏+系统属性，应该为：_A_HIDDEN | _A_RDONLY | _A_SYSTEM 。
