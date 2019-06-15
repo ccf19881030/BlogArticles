@@ -1,7 +1,9 @@
 ## [libcurl库的异步用法](https://www.cnblogs.com/zhaoyl/p/4001151.html)
-* multi接口的使用会比easy 接口稍微复杂点，毕竟multi接口是依赖easy接口的，首先粗略的讲下其使用流程：curl_multi _init初始化一个multi curl对象，为了同时进行多个curl的并发访问，我们需要初始化多个easy curl对象，使用curl_easy_setopt进行相关设置，然后调用curl_multi _add_handle把easy curl对象添加到multi curl对象中，添加完毕后执行curl_multi_perform方法进行并发的访问，访问结束后curl_multi_remove_handle移除相关easy curl对象，curl_easy_cleanup清除easy curl对象，最后curl_multi_cleanup清除multi curl对象。
-关于curl_multi_perform接口的描述可以参考官方文档：
+### multi接口的使用会比easy 接口稍微复杂点，毕竟multi接口是依赖easy接口的，首先粗略的讲下其使用流程：curl_multi _init初始化一个multi curl对象，为了同时进行多个curl的并发访问，我们需要初始化多个easy curl对象，使用curl_easy_setopt进行相关设置，然后调用curl_multi _add_handle把easy curl对象添加到multi curl对象中，添加完毕后执行curl_multi_perform方法进行并发的访问，访问结束后curl_multi_remove_handle移除相关easy curl对象，curl_easy_cleanup清除easy curl对象，最后curl_multi_cleanup清除multi curl对象。
+### 关于curl_multi_perform接口的描述可以参考官方文档：
 [curl_multi_perform - reads/writes available data from each easy handle](https://curl.haxx.se/libcurl/c/curl_multi_perform.html)
+### [multi interface overview](https://curl.haxx.se/libcurl/c/libcurl-multi.html)
+### [multi-single.c](https://curl.haxx.se/libcurl/c/multi-single.html)
 curl_multi_perform - reads/writes available data from each easy handle
 ```cpp
 #include <string>
