@@ -1,3 +1,4 @@
+## [VS2010-win32下cocos2dx控制台打印的方法](https://blog.csdn.net/kaitiren/article/details/9120271)
 ## [Cocos2dx输出Log的两种方法](https://blog.csdn.net/w174504744/article/details/39026623)
 一直使用vs2010开发cocos2dx，查看cocos2dx的log也一直使用CCLog来打印到vs2010的输出控制台，同时也可以将log输出到命令行窗口。 
 ### log输出方法一:
