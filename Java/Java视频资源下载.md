@@ -6,3 +6,4 @@
 #### [2019最新黑马java基础教程](https://www.bilibili.com/video/av51367983/?p=110)
 #### [IntelliJ IDEA详细使用教程：第二部分](https://www.bilibili.com/video/av22536948/?spm_id_from=333.788.videocard.4)
 #### [一头扎进Spring4-Bilibili视频教程](https://www.bilibili.com/video/av39838878?from=search&seid=1804909398305731343)
+#### [Java学习路线图](http://www.java1234.com/javaxuexiluxiantu.html)
