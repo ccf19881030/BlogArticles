@@ -2,5 +2,5 @@
 ## [C++ DLL导出类 知识大全](https://www.cnblogs.com/lidabo/p/7121745.html)
 
 ### 动态链接库的使用有两种方式，一种是显式调用。一种是隐式调用。
-*（1）显式调用：使用LoadLibrary载入动态链接库、使用GetProcAddress获取某函数地址。
-*（2）隐式调用：可以使用#pragma comment(lib, “XX.lib”)的方式，也可以直接将XX.lib加入到工程中。
+#### (1).显式调用：使用LoadLibrary载入动态链接库、使用GetProcAddress获取某函数地址。
+#### (2).隐式调用：可以使用#pragma comment(lib, “XX.lib”)的方式，也可以直接将XX.lib加入到工程中。
