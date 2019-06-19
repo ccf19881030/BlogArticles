@@ -5,3 +5,4 @@
 #### [郭永峰 Java开发工程师 基础+就业班（IDEA版 #下部）](https://www.bilibili.com/video/av50872181/?spm_id_from=333.788.videocard.2)
 #### [2019最新黑马java基础教程](https://www.bilibili.com/video/av51367983/?p=110)
 #### [IntelliJ IDEA详细使用教程：第二部分](https://www.bilibili.com/video/av22536948/?spm_id_from=333.788.videocard.4)
+#### [一头扎进Spring4-Bilibili视频教程](https://www.bilibili.com/video/av39838878?from=search&seid=1804909398305731343)
