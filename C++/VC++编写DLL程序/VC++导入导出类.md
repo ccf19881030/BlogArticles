@@ -1,4 +1,5 @@
 ## [CodeProject-HowTo: Export C++ classes from a DLL](https://www.codeproject.com/Articles/28969/HowTo-Export-C-classes-from-a-DLL)
+* [示例XyzSample_src源代码下载](https://www.codeproject.com/KB/cpp/howto_export_cpp_classes/XyzSample_src.zip)
 ## [VC++导入导出类](https://www.cnblogs.com/hanford/p/6177883.html)
 ## [C++ DLL导出类 知识大全](https://www.cnblogs.com/lidabo/p/7121745.html)
 
