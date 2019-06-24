@@ -1,2 +1,4 @@
 ## [Cocos2d-x 3.17.1 Android Studio环境搭建和创建编译项目](https://blog.csdn.net/qq_23261197/article/details/87883614?tdsourcetag=s_pcqq_aiomsg)
+## [Cocos2d-x 3.17 Android Studio - Step By Step Help Requested](https://discuss.cocos2d-x.org/t/cocos2d-x-3-17-android-studio-step-by-step-help-requested/43922)
+## [Cocos2d-x 3.4在AndroidStudio上编译配置](https://www.cnblogs.com/studweijun/p/4320778.html)
 ## [Android Studio Installation and Setup](Android Studio Installation and Setup)
