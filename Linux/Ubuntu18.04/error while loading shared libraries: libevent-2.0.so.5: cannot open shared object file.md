@@ -66,5 +66,7 @@ havealex@havealex:/etc/ld.so.conf.d$ sudo vim x86_64-linux-gnu.conf
 /lib/x86_64-linux-gnu
 /usr/lib/x86_64-linux-gnu
 /usr/local/lib  # 这个是追加的路径，libevent的lib库的路径存放位置
+
+havealex@havealex:/etc/ld.so.conf.d$ sudo ldconfig
 ```
 
