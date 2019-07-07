@@ -1,5 +1,6 @@
 ## [boost库之socket 非阻塞/缓冲区大小等属性设置](https://blog.csdn.net/wojiuguowei/article/details/78773686)
 asio socket 非阻塞/缓冲区大小等属性设置
+```cpp
 ip::tcp::socket m_socket
  
  //设置阻塞与非阻塞
@@ -43,6 +44,7 @@ basic_socket_acceptor(boost::asio::io_service& io_service,const endpoint_type& e
 m_socket.set_option(boost::asio::ip::tcp::no_delay(true));
 //保持常连接
 m_socket.set_option(boost::asio::socket_base::keep_alive(true));
+```
 同步连接超时设置，没有对应的set_option参数，asio自带的例子里是用deadline_timer的async_wait方法来实现超时。
 1).deadline_timer的async_wait方法
 参考：http://blog.csdn.net/li_jian_xing/article/details/50394116
