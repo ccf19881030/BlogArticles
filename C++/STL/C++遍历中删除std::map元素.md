@@ -1,3 +1,4 @@
+## [C++ map（STL map）删除元素（erase函数删除元素）详解](http://c.biancheng.net/view/513.html)
 ## [C++遍历中删除std::map元素](https://www.cnblogs.com/kex1n/archive/2011/07/08/2100787.html)
 在std::list中删除一个元素非常简单，直接使用erase方法即可，代码如下：
 ```cpp
