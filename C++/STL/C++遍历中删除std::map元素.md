@@ -14,9 +14,7 @@ else
 list.erase(std::remove_if(list.begin(), list.end(), shouldDelete), list_end());
 ```
 然而根据STL std::map中的定义void erase(iterator pos)，此erase并不返回下一个元素的迭代器，因此不能采用std::list的方法
-```shell
-The truth is that ‘erase’ in associative containers doesn’t invalidate any iterators except those that point to elements being erased (that’s also true for ’sid::list’). For this reason, you don’t really need ‘map::erase’ to return an iterator. Just do this
-```
+   The truth is that ‘erase’ in associative containers doesn’t invalidate any iterators except those that point to elements being erased (that’s also true for ’sid::list’). For this reason, you don’t really need ‘map::erase’ to return an iterator. Just do this
 ```cpp
 for(iter = map.begin(); iter != map.end();) {
   if (shouldDelete(*iter))
