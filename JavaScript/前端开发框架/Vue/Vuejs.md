@@ -5,3 +5,4 @@
 ## [在Vue中使用echarts的两种方式](https://segmentfault.com/a/1190000015453413?utm_source=tag-newest)
 ## [在vue中使用echarts图表](https://www.cnblogs.com/wenjunwei/p/9815290.html)
 ## [vue中使用vue-echarts](https://www.cnblogs.com/surui/p/8484447.html)
+## [The HTTP client for Vue.js-vue-resource](https://github.com/vuejs/vue-resource.git)
