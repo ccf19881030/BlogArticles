@@ -1,4 +1,4 @@
-## [vue-resource](https://github.com/pagekit/vue-resource)
+.## [vue-resource](https://github.com/pagekit/vue-resource)
 ## [https://www.npmjs.com/package/vue-resource](https://www.npmjs.com/package/vue-resource)
 The plugin for Vue.js provides services for making web requests and handle responses using a XMLHttpRequest or JSONP.
 ### Installation
@@ -35,3 +35,5 @@ Available on jsdelivr, unpkg or cdnjs.
 * [Creating Resources](https://github.com/pagekit/vue-resource/blob/HEAD/docs/resource.md)
 * [Code Recipes](https://github.com/pagekit/vue-resource/blob/HEAD/docs/recipes.md)
 * [API Reference](https://github.com/pagekit/vue-resource/blob/HEAD/docs/api.md)
+
+## [https://cdnjs.com/libraries/vue-resource](https://cdnjs.com/libraries/vue-resource)
