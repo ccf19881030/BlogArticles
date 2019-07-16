@@ -2,8 +2,8 @@
 ### 1、.net(dot net)
 #### .net是一个平台，抽象的平台概念。
 ##### (1)、实现形式是库：
-      * ①定义了基本的类型(通用类型系统CTS，common type system)。
-　    * ②包含.net公共语言运行库(CLK，common language runtime，负责管理用.net库开发的所有应用程序的运行)。
+       * 定义了基本的类型(通用类型系统CTS，common type system)。
+　     * 包含.net公共语言运行库(CLK，common language runtime，负责管理用.net库开发的所有应用程序的运行)。
 ##### (2)、核心是.net framework
 ###### NET Framework包括两个关键组成元素：
        * a.Common Language Runtime，公共语言运行时（CLR）-提供内在管理，代码安全性检测等功能。
