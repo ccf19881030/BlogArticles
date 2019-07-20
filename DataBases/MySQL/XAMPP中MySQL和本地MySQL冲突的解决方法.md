@@ -1,3 +1,4 @@
+## [xampp的MySQL与电脑中已有的MySQL冲突](https://blog.csdn.net/qq_20757489/article/details/86668190)
 ## [XAMPP中MySQL和本地MySQL冲突的解决方案](https://blog.csdn.net/sinat_37633633/article/details/77645463)
 环境：Windows+xmapp7.1
 
