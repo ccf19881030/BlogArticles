@@ -6,3 +6,7 @@
 ## [在vue中使用echarts图表](https://www.cnblogs.com/wenjunwei/p/9815290.html)
 ## [vue中使用vue-echarts](https://www.cnblogs.com/surui/p/8484447.html)
 ## [The HTTP client for Vue.js-vue-resource](https://github.com/vuejs/vue-resource.git)
+## [Vuejs 1.0 guide](https://v1-cn.vuejs.org/guide/instance.html)
+## [Vuejs 1.0 API](https://v1-cn.vuejs.org/api/) 
+## [Vuejs 2.0 guide](https://cn.vuejs.org/v2/guide/instance.html)
+## [Vuejs 2.0 API](https://cn.vuejs.org/v2/api/)
