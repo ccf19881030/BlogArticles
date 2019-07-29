@@ -1,3 +1,5 @@
 ## [在Ubuntu 18.04系统中安装配置Redis 4.0.11数据库](https://ywnz.com/linuxysjk/3266.html)
+## [Ubuntu18.10下Redis安装与配置](https://blog.csdn.net/Javaer2014/article/details/84971962)
+## [ubuntu 18.04 安装 Redis](https://wangxin1248.github.io/linux/2018/07/ubuntu18.04-install-redis.html)
 ## [redis下载](https://redis.io/download)
 ## [Minimalistic C client for Redis >= 1.2 hiredis](https://github.com/redis/hiredis)
