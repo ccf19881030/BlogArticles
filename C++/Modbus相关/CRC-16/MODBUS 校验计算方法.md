@@ -36,23 +36,23 @@ CRC16 码由传输设备计算后加入到数据包中。接收设备重新计�
 ****************************************************************************************/ 
 unsigned int CRC16_Checkout ( unsigned char *puchMsg, unsigned int usDataLen ) 
 { 
-unsigned int i,j,crc_reg,check; 
-crc_reg = 0xFFFF; 
-for(i=0;i<usDataLen;i++) 
-{ 
-crc_reg = (crc_reg>>8) ^ puchMsg[i]; 
- for(j=0;j<8;j++) 
-{ 
- check = crc_reg & 0x0001; 
- crc_reg >>= 1; 
- if(check==0x0001) 
-HJ 212-2017 
-{ 
- crc_reg ^= 0xA001; 
- } 
- } 
-} 
-return crc_reg; 
+    unsigned int i,j,crc_reg,check; 
+    crc_reg = 0xFFFF; 
+    for(i=0;i<usDataLen;i++) 
+    { 
+       crc_reg = (crc_reg>>8) ^ puchMsg[i]; 
+       for(j=0;j<8;j++) 
+       { 
+           check = crc_reg & 0x0001; 
+           crc_reg >>= 1; 
+           if(check==0x0001) 
+           { 
+              crc_reg ^= 0xA001; 
+           } 
+       } 
+   } 
+   
+   return crc_reg; 
 } 
 ```
 
