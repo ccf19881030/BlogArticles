@@ -82,51 +82,43 @@ ModBus 通信协议的CRC ( 冗余循环校验码）含2个字节, 即 16 位二
 #### (3)、crc算法实现
 此处CRC校验采用的多项式为g(x)=x16+x15+x2+1
 ```cpp
-unsigned short crc16_calculate(unsigned char *p,unsigned int len)
+// Modbus RTU CRC16校验
+static unsigned short Modbus_RTU_CRC16_Checkout(unsigned char *p, unsigned int len)
 {
-  unsigned short wcrc = 0XFFFF;//16位crc寄存器预置
+    unsigned short crc16_reg = 0XFFFF;  // 16位crc寄存器预置
 
-  unsigned char temp;
+     unsigned char temp;
 
-  int i=0,j=0;//计数
+     int i = 0, j = 0;//计数
 
-  for(i=0;i<len;i++)//循环计算每个数据
-  {
-
-    temp=*p & 0X00FF;//将八位数据与crc寄存器异或
-
-    p++;//指针地址增加，指向下个数据
-
-    wcrc^=temp;//将数据存入crc寄存器
-
-    for(j=0;j<8;j++)//循环计算数据的
-    {
-      if(wcrc&0X0001)//判断右移出的是不是1，如果是1则与多项式进行异或。
+      for (i = 0; i < len; i++)  //循环计算每个数据
       {
-        wcrc>>=1;//先将数据右移一位
+	   temp = *p & 0X00FF; // 取8位数据
 
-        wcrc^=0XA001;//与上面的多项式进行异或
-      }
-      else//如果不是1，则直接移出
-      {
-        wcrc>>=1;//直接移出
-      }
-    }
-  }
+	    p++;//指针地址增加，指向下个数据
 
-  temp=wcrc; //crc的值
-  
-  return temp;
+	    // 将八位数据与crc寄存器异或
+	    crc16_reg ^= temp;  //将数据存入crc寄存器
 
-  //Temp中即存放了CRC的高八位和低八位
+	    for (j = 0; j < 8; j++)//循环计算数据的
+	    {
+		 if (crc16_reg & 0X0001)//判断右移出的是不是1，如果是1则与多项式进行异或。
+		 {
+		     crc16_reg >>= 1; // 先将数据右移一位
 
-  unsigned char CRC[2];//定义数组
+		     crc16_reg ^= 0XA001; // 与上面的多项式进行异或
+		  }
+		  else // 如果不是1，则直接移出
+		  {
+		      crc16_reg >>= 1; //直接移出
+		  }
+	   }
+	}
 
-  CRC[0]=wcrc;//crc的低八位
-
-  CRC[1]=wcrc>>8;//crc的高八位
+       return crc16_reg;  // crc16的值
 }
 ```
+
 // mbs.h
 ```cpp
 #pragma once
@@ -146,6 +138,42 @@ namespace Modbus {
 		return crc16();
 	}
 
+	// Modbus RTU CRC16校验
+	static unsigned short Modbus_RTU_CRC16_Checkout(unsigned char *p, unsigned int len)
+	{
+		unsigned short crc16_reg = 0XFFFF;  // 16位crc寄存器预置
+
+		unsigned char temp;
+
+		int i = 0, j = 0;//计数
+
+		for (i = 0; i < len; i++)  //循环计算每个数据
+		{
+			temp = *p & 0X00FF; // 取8位数据
+
+			p++;//指针地址增加，指向下个数据
+
+			// 将八位数据与crc寄存器异或
+			crc16_reg ^= temp;  //将数据存入crc寄存器
+
+			for (j = 0; j < 8; j++)//循环计算数据的
+			{
+				if (crc16_reg & 0X0001)//判断右移出的是不是1，如果是1则与多项式进行异或。
+				{
+					crc16_reg >>= 1; // 先将数据右移一位
+
+					crc16_reg ^= 0XA001; // 与上面的多项式进行异或
+				}
+				else // 如果不是1，则直接移出
+				{
+					crc16_reg >>= 1; //直接移出
+				}
+			}
+		}
+
+		return crc16_reg;  // crc16的值
+	}
+
 	// 采用 ANSI CRC16(HJ 212-2017)
 	//CRC 校验算法示例：
 	/****************************************************************************************
@@ -155,7 +183,7 @@ namespace Modbus {
 		参 数 二: usDataLen：要校验的字符串长度
 		返 回 值: 返回 CRC16 校验码
 		****************************************************************************************/
-	static unsigned int CRC16_Checkout(unsigned char *puchMsg, unsigned int usDataLen)
+	static unsigned int ANSI_CRC16_Checkout(unsigned char *puchMsg, unsigned int usDataLen)
 	{
 		unsigned int i, j, crc_reg, check;
 		crc_reg = 0xFFFF;
@@ -174,6 +202,5 @@ namespace Modbus {
 		}
 		return crc_reg;
 	}
-
 }
 ```
