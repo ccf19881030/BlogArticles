@@ -35,8 +35,9 @@ typedef boost::crc_optimal<16, 0x8005, 0xFFFF, 0, true, true>	mbscrc_16_type;
 // 计算modbus中CRC16校验值
 static uint16 jisuanCRC16(const void* buffer, size_t byte_size)
 {
-		mbscrc_16_type crc16;
-		crc16.process_bytes(buffer, byte_size);
-		return crc16();
+  mbscrc_16_type crc16;
+  crc16.process_bytes(buffer, byte_size);
+  
+  return crc16();
 }
 ```
