@@ -1,0 +1,6 @@
+## [【学习cmake】在 linux 下使用 CMake 构建应用程序 实践篇1](https://blog.csdn.net/KYJL888/article/details/80497176)
+## [linux下使用cmake构建C/C++项目](https://www.cnblogs.com/lchb/articles/2797495.html)
+## [part01_Linux下使用Cmake构建工程](https://www.jianshu.com/p/a7c88b7a9020)
+## [Linux下如何完整的构建cmake项目](https://blog.csdn.net/felaim/article/details/71601017)
+## [使用CMake构建复杂工程](https://www.linuxidc.com/Linux/2016-12/138082.htm)
+## [在linux下使用CMake构建应用程序](http://blog.chinaunix.net/uid-28458801-id-3501768.html)
