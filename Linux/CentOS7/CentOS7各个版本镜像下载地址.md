@@ -42,6 +42,23 @@ http://mirrors.163.com/centos/7.5.1804/isos/x86_64/CentOS-7-x86_64-Minimal-1804.
 http://mirrors.163.com/centos/7.5.1804/isos/x86_64/CentOS-7-x86_64-NetInstall-1804.iso
 
 PS:另外提供国内外各大网站镜像源，也可以下载处于维护的CentOS-Linux版本镜像
+
+CentOS 7.0 各版本下载说明 新增Everything版
+CentOS-7.0-1406有很多可供选择的版本，对初学者来说，不知如何选择，下面做简单的介绍：
+CentOS-7.0-1406-x86_64-DVD.iso 标准安装版，一般下载这个就可以了
+CentOS-7.0-1406-x86_64-NetInstall.iso 网络安装镜像
+CentOS-7.0-1406-x86_64-Everything.iso 对完整版安装盘的软件进行补充，集成所有软件
+CentOS-7.0-1406-x86_64-GnomeLive.iso GNOME桌面版
+CentOS-7.0-1406-x86_64-KdeLive.iso KDE桌面版
+CentOS-7.0-1406-x86_64-livecd.iso 光盘上运行的系统，类拟于winpe
+CentOS-xxxx-LiveCD.ios 和 CentOS-xxxx-bin-DVD.iso有什么区别？
+
+前者700M，后者3.8G，CentOS-xxxx-LiveCD.ios只能加载到内存里运行，不能安装，CentOS-xxx-bin-DVD.iso可以安装到硬盘上。
+
+CentOS-xxx-bin-DVD1.iso 和 CentOS-xxx-bin-DVD2.iso有什么区别？
+
+前者3.8G，后者500M，DVD1是安装文件，DVD2是一些软件，对于只需安装简单实用的CentOS系统来说不是必需的。
+
  
   
  
