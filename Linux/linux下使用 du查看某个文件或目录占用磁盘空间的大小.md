@@ -17,14 +17,11 @@ du -ah --max-depth=1
 这个是我想要的结果  a表示显示目录下所有的文件和文件夹（不含子目录），h表示以人类能看懂的方式，max-depth表示目录的深度。
 
  
-
-解释如下：
-
+## 解释如下：
 du命令用来查看目录或文件所占用磁盘空间的大小。常用选项组合为：du -sh
-
-　　一、du的功能：`du` reports the amount of disk space used by the specified files and for each subdirectory (of directory arguments). with no arguments,`du` reports the disk space for the current directory。
+### 一、du的功能：`du` reports the amount of disk space used by the specified files and for each subdirectory (of directory arguments). with no arguments,`du` reports the disk space for the current directory。
 　　很明显，与df不同，它用来查看文件或目录所占用的磁盘空间的大小。
- 　二、du常用的选项：
+### 二、du常用的选项：
 　　-h：以人类可读的方式显示
 　　-a：显示目录占用的磁盘空间大小，还要显示其下目录和文件占用磁盘空间的大小
 　　-s：显示目录占用的磁盘空间大小，不要显示其下子目录和文件占用的磁盘空间大小
