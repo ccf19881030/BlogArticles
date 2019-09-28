@@ -1,5 +1,6 @@
 ## [C++版的网络数据包解析策略(升级版)](https://www.cnblogs.com/wjshan0808/p/6580638.html)
-### 一、数据包格式形如下图
+### 一、数据包格式形如下图所示:
+![image](../TCP_DataPackage.png)
 ### 二、代码
 ```cpp
 int ReceiveFromRemoteEndPoint()
