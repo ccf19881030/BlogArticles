@@ -310,5 +310,10 @@ bool CCycleBuffer::isFull()
 	return m_bFull;
 }
 ```
-Boost库里面提供了环形缓冲区的C++实现 circular buffer 
+## Boost库里面提供了环形缓冲区的C++实现 circular buffer 
 #include <boost/circular_buffer.hpp>
+
+## 相关参考资料
+### [环形缓冲区的实现](https://blog.csdn.net/qq_39736982/article/details/82915115)
+### [线程安全的环形缓冲区实现](https://www.cnblogs.com/lidabo/p/3751894.html)
+### [Ring Buffer (circular Buffer)环形缓冲区简介](https://www.2cto.com/kf/201305/208947.html)
