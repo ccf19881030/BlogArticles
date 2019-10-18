@@ -1,6 +1,6 @@
 ## [gradle配置国内镜像](https://blog.csdn.net/lj402159806/article/details/78422953)
 本文链接：https://blog.csdn.net/lj402159806/article/details/78422953
-使用阿里云国内镜像
+### 使用阿里云国内镜像
 对单个项目生效，在项目中的build.gradle修改内容
 ```shell
 buildscript {
