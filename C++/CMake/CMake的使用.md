@@ -1,8 +1,9 @@
   CMake是一个跨平台的Makefile生成工具，可以根据特定的规则生成相应的Makefile文件，并对C/C++源代码进行编译和管理。
- 有一篇博客介绍CMake的使用，比较通俗易懂，链接地址是：[Cmake 详解](https://blog.codekissyoung.com/常用软件/cmake)
- CMake的官方下载地址为：[https://cmake.org/download/](https://cmake.org/download/)
- 官方文档地址为：[CMake 3.16 Documentation](https://cmake.org/documentation/)
- 官方的CMake指南地址为：[CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
+ 有一篇博客介绍CMake的使用，比较通俗易懂，链接地址是：
+* [Cmake 详解](https://blog.codekissyoung.com/常用软件/cmake)
+* CMake的官方下载地址为：[https://cmake.org/download/](https://cmake.org/download/)
+* 官方文档地址为：[CMake 3.16 Documentation](https://cmake.org/documentation/)
+* 官方的CMake指南地址为：[CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
  ##  一、CMake中添加对C++11的支持
  ### 1、在对应的CMakeLists.txt文件中加入以下语句：
  ```shell
