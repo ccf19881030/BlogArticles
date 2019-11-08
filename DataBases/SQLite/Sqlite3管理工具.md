@@ -21,3 +21,5 @@
 ### 6、SQLite Manager for Firefox
 是火狐浏览器的一个插件，XUL很强大的样子。
 
+## [Sqlite3教程](https://www.yiibai.com/sqlite)
+
