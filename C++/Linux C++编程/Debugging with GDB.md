@@ -1,3 +1,4 @@
+## [gdb 调试入门](https://blog.csdn.net/xcw_1987/article/details/81811044)
 ## [100-gdb-tips](https://github.com/hellogcc/100-gdb-tips)
 《100个gdb小技巧》
 ### [100个gdb小技巧-索引](https://github.com/hellogcc/100-gdb-tips/blob/master/src/index.md)
