@@ -1,9 +1,10 @@
 ## [宏定义#define STR(s) #s 等宏定义后面加#的意思](https://blog.csdn.net/qq_41069421/article/details/91538232)
+```cpp
 #define Conn(x,y) x##y
 #define ToChar(x) #@x
 #define ToString(x) #x
 #define CONS(a,b) int(a##e##b)
-
+```
 x##y表示什么?表示x连接y，举例说:
 int n = Conn(123,456); 结果就是n=123456;
 char* str = Conn(“asdf”, “adf”)结果就是 str = “asdfadf”;
