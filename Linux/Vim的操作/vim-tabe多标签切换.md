@@ -41,14 +41,6 @@ Vim默认最多只能打开10个标签页。你可以用set tabpagemax=15改变�
 
 
 * 命令小结
-:tabnew	新建标签页
-:tabs	显示已打开标签页的列表
-:tabc	关闭当前标签页
-:tabn	移动到下一个标签页
-:tabp	移动到上一个标签页
-:tabfirst	移动到第一个标签页
-:tablast	移动到最后一个标签页
-
 <table style="border:2px dotted gray;">
   <tr>
     <td>:tabnew	新建标签页</td>
