@@ -25,7 +25,7 @@
 
         start exe路径
 
-　　开始→运行→“regdeit”,打开路径HKEY_LOCAL_MACHINE -- SOFTWARE -- Microsoft -- Windows -- CurrentVersion -- Run
+　　开始→运行→“regedit”,打开路径HKEY_LOCAL_MACHINE -- SOFTWARE -- Microsoft -- Windows -- CurrentVersion -- Run
 
 　　新建字符串值，数值名称自己定义，数值数据填bat路径，重启即可
 
