@@ -20,7 +20,7 @@ copy /Y *.exe %OUT%\bin
 pause
 ```
 #### 2、[windows 平台使用 VS2017 编译openssl源码](https://www.cnblogs.com/xiacaojun/p/10791307.html)
-#### 3、使用bat脚本编译libevent源代码
+#### 3、使用build_libevent_vs2017_32.bat脚本编译libevent源代码
 ```bat
 set VS="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Auxiliary\Build\vcvarsamd64_x86.bat"
 call %VS%
