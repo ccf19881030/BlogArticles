@@ -161,7 +161,10 @@ int main(int argc, char *argv[])
     return a.exec();
 }
 ```
-
+## [带有加密功能的 SQLite Qt 插件（v0.5）](https://www.devbean.net/2016/05/qt-sqlite-plugin-with-encryption-v05/)
+### [QtCipherSqlitePlugin](http://qtciphersqliteplugin.galaxyworld.org)
+### [https://github.com/devbean/QtCipherSqlitePlugin](
+https://github.com/devbean/QtCipherSqlitePlugin)
 ## [在CodeBlocks中编译带加密的sqlite3，并利用CppSQLite3操纵sqlite3](https://www.iteye.com/blog/emonkey-1613282)
 
 ## [VC2010中编译Sqlite3为静态库并带加密功能的方法](https://bbs.csdn.net/topics/380018685)
