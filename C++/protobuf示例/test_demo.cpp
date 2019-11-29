@@ -1,6 +1,4 @@
-#include "config/query.pb.h"
-
-#include "../include/type.h"
+#include "query.pb.h"
 
 #include <string>
 #include <cassert>
@@ -13,7 +11,7 @@ using namespace ::google::protobuf;
 
 typedef std::shared_ptr<google::protobuf::Message> MessagePtr;
 
-// createMessage(const std::string& typeName)·µ»ØµÄÊÇ¶¯Ì¬´´½¨µÄ¶ÔÏóµÄÖ¸Õë£¬µ÷ÓÃ·½ÓĞÔğÈÎÊÍ·ÅËü£¬²»È»»á³öÏÖÄÚ´æĞ¹Â©
+// createMessage(const std::string& typeName)è¿”å›çš„æ˜¯åŠ¨æ€åˆ›å»ºçš„å¯¹è±¡çš„æŒ‡é’ˆï¼Œè°ƒç”¨æ–¹æœ‰è´£ä»»é‡Šæ”¾å®ƒï¼Œä¸ç„¶ä¼šå‡ºç°å†…å­˜æ³„æ¼
 google::protobuf::Message* createMessage(const std::string& typeName)
 {
 	google::protobuf::Message* message = NULL;
