@@ -1,0 +1,23 @@
+syntax = "proto3";
+package muduo;
+option java_package = "muduo.codec.tests";
+option java_outer_classname = "QueryProtos";
+
+message Query {
+	int64 id = 1;			// 问题id
+	string questioner = 2;	// 分布式系统中的进程标识
+
+	string question = 3;	// 问题
+}
+
+message Answer {
+	int64 id = 1;			// 答案id
+	string questioner = 2;	// 分布式系统中的进程标识
+	string answerer = 3;	// 问题答案
+
+	repeated string solution = 4;
+}
+
+message Empty {
+	int32 id = 1;
+}
