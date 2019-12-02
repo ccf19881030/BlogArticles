@@ -71,6 +71,7 @@ int main()
                   << size << " ints : " << diff.count() << " s\n";
     }
 }
+```cpp
 
 ### 2、Possible output:
 ```shell
