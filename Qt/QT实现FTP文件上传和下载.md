@@ -10,5 +10,6 @@ qt5之后就不在使用QFtp QHttp，因为QNetworkaccessmanager已经替代了�
 ## [使用QNetworkAccessManager实现Qt的FTP下载服务](https://www.cnblogs.com/jason1990/p/7830271.html)
 ## [qt5集成libcurl实现tftp和ftp的方法之二：实现tftp文件上传和下载](https://blog.csdn.net/xueyushenzhou/article/details/51952961)
 ## [qt5集成libcurl实现tftp和ftp的方法之四：实现ftp文件上传和下载](https://blog.csdn.net/xueyushenzhou/article/details/51956603)
+## [Ubuntu 14.04 FTP服务器--vsftpd的安装和配置](http://jingyan.baidu.com/article/67508eb4d6c4fd9ccb1ce470.html)
 
 
