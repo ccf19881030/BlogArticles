@@ -8,5 +8,7 @@ qt5之后就不在使用QFtp QHttp，因为QNetworkaccessmanager已经替代了�
 2.使用第三方libcurl库
 由于QT5不再导出QFtp，提供的QNetworkAccessManager仅支持ftp的上传put和下载get
 ## [使用QNetworkAccessManager实现Qt的FTP下载服务](https://www.cnblogs.com/jason1990/p/7830271.html)
+## [qt5集成libcurl实现tftp和ftp的方法之二：实现tftp文件上传和下载](https://blog.csdn.net/xueyushenzhou/article/details/51952961)
+## [qt5集成libcurl实现tftp和ftp的方法之四：实现ftp文件上传和下载](https://blog.csdn.net/xueyushenzhou/article/details/51956603)
 
 
