@@ -49,3 +49,9 @@ moment().format('lll');  // 2019年12月11日下午3点49分
 moment().format('LLLL'); // 2019年12月11日星期三下午3点49分
 moment().format('llll'); // 2019年12月11日星期三下午3点49分
 ```
+### 在Nodejs中使用Moment获取当前的格式化时间
+```javascript
+var moment = require('moment');
+var currentTime = moment().format('YYYY年MM月DD号 HH时mm分ss秒');
+console.log("当前时间为:" + currentTime);
+```
