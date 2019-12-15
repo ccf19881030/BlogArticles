@@ -8,16 +8,23 @@
 
 ## Note
 * 1、开发语言和框架相关
+  * C#
+  * C++
+  * C
   * Cocos2d-Html5
   * Cocos2d-x
   * DataBases
-  * HeadFirstBook
+  * Java
   * JavaScript
   * Linux
+  * Lua
+  * OpenCV
   * OpenGL
   * PHP
+  * Qt
   * Swift
-
+  * HeadFirstBook
+ 
 * 2、IT技术网站链接
   * 著名的IT英文站点,见文件：[it_famous_website.md](it_famous_website.md)
  
