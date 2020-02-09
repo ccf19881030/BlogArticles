@@ -16,6 +16,9 @@
 * Qt所有版本下载：[ftp://ftp.qt-project.org/qt/source](ftp://ftp.qt-project.org/qt/source/)
 * Qt Creator所有版本下载：[ftp://ftp.qt-project.org/qtcreator](ftp://ftp.qt-project.org/qtcreator/)
 
+## QT的一些视频教程
+* [QT5入门精讲(C++)](https://www.bilibili.com/video/av50849127)
+
 ## QT编码规范
 * 高级编码规范：[http://wiki.qt.io/Qt_Coding_Style](http://wiki.qt.io/Qt_Coding_Style)
 * 低级编码规范：[http://wiki.qt.io/Coding_Conventions](http://wiki.qt.io/Coding_Conventions)
