@@ -18,6 +18,8 @@
 
 ## QT的一些视频教程
 * [QT5入门精讲(C++)](https://www.bilibili.com/video/av50849127)
+* [C++QT5跨平台界面编程原理和实战大全-老夏课堂](https://www.bilibili.com/video/av68939076)
+* [QT5实战项目](https://www.bilibili.com/video/av41566976)
 
 ## QT编码规范
 * 高级编码规范：[http://wiki.qt.io/Qt_Coding_Style](http://wiki.qt.io/Qt_Coding_Style)
