@@ -10,16 +10,16 @@
 * [https://www.qt-apps.org](https://www.qt-apps.org)
 
 ## QT官方资料
-Qt官网：[http://qt.digia.com/](http://qt.digia.com/)
-Qt开源官网：[http://qt-project.org/](http://qt-project.org/)
-Qt最新版本下载：[http://qt-project.org/downloads](http://qt-project.org/downloads)
-Qt所有版本下载：[ftp://ftp.qt-project.org/qt/source/](ftp://ftp.qt-project.org/qt/source/)
-Qt Creator所有版本下载：[ftp://ftp.qt-project.org/qtcreator/](ftp://ftp.qt-project.org/qtcreator/)
+* Qt官网：[http://qt.digia.com/](http://qt.digia.com/)
+* Qt开源官网：[http://qt-project.org/](http://qt-project.org/)
+* Qt最新版本下载：[http://qt-project.org/downloads](http://qt-project.org/downloads)
+* Qt所有版本下载：[ftp://ftp.qt-project.org/qt/source/](ftp://ftp.qt-project.org/qt/source/)
+* Qt Creator所有版本下载：[ftp://ftp.qt-project.org/qtcreator/](ftp://ftp.qt-project.org/qtcreator/)
 
 ## QT编码规范
-高级编码规范：http://wiki.qt.io/Qt_Coding_Style
-低级编码规范：http://wiki.qt.io/Coding_Conventions
-QML 编码规范：http://doc.qt.io/qt-5/qml-codingconventions.html
+* 高级编码规范：http://wiki.qt.io/Qt_Coding_Style
+* 低级编码规范：http://wiki.qt.io/Coding_Conventions
+* QML 编码规范：http://doc.qt.io/qt-5/qml-codingconventions.html
 
 ## QT的一些开源软件
 * [PacketSender](https://github.com/dannagle/PacketSender)
