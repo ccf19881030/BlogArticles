@@ -1,4 +1,5 @@
-# [QT开源网站和相关资料](https://blog.csdn.net/qq_37486501/article/details/81269624)
+## [QT开源网站和相关资料](https://ccf19881030.blog.csdn.net/article/details/104241931)
+   相比较微软的MFC，Qt是一个跨平台应用程序和 UI 开发框架。使用 Qt 您只需一次性开发应用程序，无须重新编写源代码，便可跨不同桌面和嵌入式操作系统部署这些应用程序。记得之前在上海的一家公司里开发的手机助手类的程序就是采用QT开发的，分别针对Windows和Mac开发手机助手，第一个版本基于QML，第二个版本采用QT C++方式。Qt Creator 是全新的跨平台Qt IDE，可单独使用，也可与 Qt 库和开发工具组成 一套完整的SDK. 其中包括：高级 C++ 代码编辑器，项目和生成管理工具，集成的上下文相关的帮助系统，图形化调试器，代码管理和浏览工具。Qt Creator 是专为满足 Qt 开发人员需求而量身定制的跨平台集成开发环境 (IDE)。Qt Creator 可在 Windows、Linux/X11 和 Mac OS X 桌面操作系统上运行，供开发人员针对多个桌面和移动设备平台创建应用程序。
 
 ## QT的一些网站
 * QT开源社区 [http://www.qter.org/](http://www.qter.org/)
@@ -10,11 +11,9 @@
 * [https://www.qt-apps.org](https://www.qt-apps.org)
 
 ## QT官方资料
-* Qt官网：[http://qt.digia.com/](http://qt.digia.com/)
-* Qt开源官网：[http://qt-project.org/](http://qt-project.org/)
-* Qt最新版本下载：[http://qt-project.org/downloads](http://qt-project.org/downloads)
-* Qt所有版本下载：[ftp://ftp.qt-project.org/qt/source](ftp://ftp.qt-project.org/qt/source/)
-* Qt Creator所有版本下载：[ftp://ftp.qt-project.org/qtcreator](ftp://ftp.qt-project.org/qtcreator/)
+* Qt中文官网：[https://www.qt.io/cn](https://www.qt.io/cn)
+* Qt开发者官网：[https://www.qt.io/developers](https://www.qt.io/developers)
+* Qt版本下载：[https://www.qt.io/download](https://www.qt.io/download)
 
 ## QT的一些视频教程
 * [QT5入门精讲(C++)](https://www.bilibili.com/video/av50849127)
@@ -31,23 +30,16 @@
 Network utility for sending / receiving TCP, UDP, SSL [https://packetsender.com/](https://packetsender.com/)
 * [QGIS](https://github.com/qgis/QGIS)
 QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS) http://qgis.org
+* [基于Qt和FFmpeg的跨平台高性能音视频播放框架-QtAV](https://github.com/wang-bin/QtAV)
+QtAV是基于Qt和FFmpeg的音视频播放库。开发者能够很容易基于QtAV编写播放器。支持常见的功能如播放、截图、暂停、快进快退、音量控制、播放网络流媒体等。 目前支持的渲染方式有QPainter、Direct2D、gdi+、OpenGL，以后会添加其他选择和硬件解码功能。
+* [带有加密功能的 SQLite Qt 插件-QtCipherSqlitePlugin](http://qtciphersqliteplugin.galaxyworld.org)
+QtCipherSqlitePlugin is a Qt plugin for ciphered SQLite which is based on SQLite source and wxSQLite3.
+* [基于Qt开发的轻量级HTTP/HTTPS服务器](https://github.com/188080501/JQHttpServer)
+* [Github上的一些高分Qt开源项目【多图】](https://www.cnblogs.com/pyw0818/p/8044295.html)
 
-## Qt与Qt Creator简介
-```
-Qt是一个跨平台应用程序和 UI 开发框架。使用 Qt 您只需一次性开发应用程序，无须重新编写源代码，便可跨不同桌面和嵌入式操作系统部署这些应用程序。
-Qt Creator 是全新的跨平台Qt IDE，可单独使用，也可与 Qt 库和开发工具组成 一套完整的SDK. 其中包括：高级 C++ 代码编辑器，项目和生成管理工具，集成的上下文相关的帮助系统，图形化调试器，代码管理和浏览工具。
-```
+## QT相关的个人博客
+* [刘典武的CSDN博客](https://blog.csdn.net/feiyangqingyun)
+* [刘典武的博客园](https://www.cnblogs.com/feiyangqingyun)
+* [Qt编写自定义控件大全](https://blog.csdn.net/feiyangqingyun/article/details/53443488) 
 
-## Qt功能与特性
-```
-直观的 C++ 类库：模块化 Qt C++ 类库提供一套丰富的应用程序生成块 (block)，包含了构建高级跨平台应用程序所需的全部功能。具有直观，易学、易用，生成好理解、易维护的代码等特点。
-跨桌面和嵌入式操作系统的移植性：使用 Qt，您只需一次性开发应用程序，就可跨不同桌面和嵌入式操作系统进行部署，而无须重新编写源代码，可以说
-Qt无处不在（QtEverywhere） 。
-使用单一的源代码库定位多个操作系统；
-通过重新利用代码可将代码跨设备进行部署；
-无须考虑平台，可重新分配开发资源；
-代码不受担忧平台更改影响的长远考虑 ；
-使开发人员专注于构建软件的核心价值，而不是维护 API 。
-具有跨平台 IDE 的集成开发工具：Qt Creator 是专为满足 Qt 开发人员需求而量身定制的跨平台集成开发环境 (IDE)。Qt Creator 可在 Windows、Linux/X11 和 Mac OS X 桌面操作系统上运行，供开发人员针对多个桌面和移动设备平台创建应用程序。
-在嵌入式系统上的高运行时间性能，占用资源少。
-```
+ 个人感觉[QT5入门精讲(C++) - B站视频](https://www.bilibili.com/video/av50849127)讲得还不错，另外《Qt 5.9 C++开发指南》一书讲得也还可以，之前的《QT高级编程》和《C++ GUI Qt 4编程》很经典，不过是基于QT 4的，QT5相比较QT 4，API变化不少。
