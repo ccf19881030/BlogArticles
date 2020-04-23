@@ -11,6 +11,13 @@
 ## 阮一峰的技术资料
 * [ES6 入门教程](https://es6.ruanyifeng.com/)
 《ECMAScript 6 入门教程》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。
+* [github](https://github.com/ruanyf)
+* [全栈工程师培训材料](https://github.com/ruanyf/jstraining)
+* [webpack-demos](https://github.com/ruanyf/webpack-demos)
+* [react-demos](https://github.com/ruanyf/react-demos)
+a collection of simple demos of React.js
+* [weekly](https://github.com/ruanyf/weekly)
+科技爱好者周刊，每周五发布
 
 ## 《JavaScript 语言入门教程》
 * [JavaScript 语言入门教程](https://wangdoc.com/javascript/)
