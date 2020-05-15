@@ -1,3 +1,6 @@
+# [redis.io](https://redis.io/)
+Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker. It supports data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes with radius queries and streams. Redis has built-in replication, Lua scripting, LRU eviction, transactions and different levels of on-disk persistence, and provides high availability via Redis Sentinel and automatic partitioning with Redis Cluster. [Learn more →](https://redis.io/topics/introduction)
+
 # [Redis和MongoDB的区别(面试受用)](https://www.cnblogs.com/java-spring/p/9488227.html)
 项目中用的是MongoDB，但是为什么用其实当时选型的时候也没有太多考虑，只是认为数据量比较大，所以采用MongoDB。
 
