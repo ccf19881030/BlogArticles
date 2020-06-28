@@ -28,7 +28,7 @@
 * 2、IT技术网站链接
   * 著名的IT英文站点,见文件：[it_famous_website.md](it_famous_website.md)
  
-  * 学习C++、VC++、QT的相关网站,见文件：[Cplusplus_learn_website.md](Cplusplus_learn_website.md)
+  * 学习C++、VC++、QT的相关网站,见文件：[学习C++、VC++、QT的相关网站.md](学习C++、VC++、QT的相关网站.md)
    
   * 游戏开发类网站,见文件：[game_dev_website.md](game_dev_website.md)
    
