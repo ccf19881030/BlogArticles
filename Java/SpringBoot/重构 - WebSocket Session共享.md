@@ -8,16 +8,16 @@ Map<String userId, WebsocketSession session>
 
 由于项目目前用到了Redis，所以可以采用Redis的发布/订阅功能来实现WebsocketSession共享问题。
 
-- 1.新建一个对象，属性有userId, message，用于发送消息
+-1、新建一个对象，属性有userId, message，用于发送消息
 ```java
 Object(String userId, String message)
 ```
 
-- 2. 当新消息到达时，将消息注册到redis指定topic的频道上
+-2、当新消息到达时，将消息注册到redis指定topic的频道上
 ```java
 convertAndSent("topicName", new Object(userId, message))
 ```
 
-- 3.每个应用节点都订阅该topic的频道，这样新消息一注册，每个节点都能接收到Object，然后从Object中获取userId，再从映射Map中获取userId对应的WebsocketSession（在哪个节点建立的连接和Map映射关系，就会在哪个节点找到对应的session），进行消息推送。
+-3、每个应用节点都订阅该topic的频道，这样新消息一注册，每个节点都能接收到Object，然后从Object中获取userId，再从映射Map中获取userId对应的WebsocketSession（在哪个节点建立的连接和Map映射关系，就会在哪个节点找到对应的session），进行消息推送。
 
 就这样通过Redis的发布/订阅功能实现session共享。当然在步骤2，新消息到达时，可以先在本节点的Map映射中查找是否有userId对应的session，如果有，直接推送消息，而且不必要再将消息注册到redis中。
