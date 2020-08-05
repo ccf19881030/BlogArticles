@@ -6,7 +6,7 @@
 - JWT是如何工作的。
 - 如何创建JWT。
 - 我们如何保护我们的应用程序并验证JWT。
-- 更多实践：
+更多实践：
 – [使用Spring Security和JWT身份验证的安全Spring Boot应用程序](https://bezkoder.com/spring-boot-jwt-authentication/)
 –  [Node.js –使用JSONWebToken示例（JWT）的基于令牌的身份验证](https://bezkoder.com/node-js-jwt-authentication-mysql/)
 – [Spring Boot，MongoDB：基于Spring Security的JWT身份验证](https://bezkoder.com/spring-boot-jwt-auth-mongodb/)
