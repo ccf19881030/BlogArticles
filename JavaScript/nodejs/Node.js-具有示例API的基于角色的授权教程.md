@@ -1,5 +1,5 @@
 ## 博客说明
-本博客翻译自[Node.js - Role Based Authorization Tutorial with Example API](https://jasonwatmore.com/post/2018/11/28/nodejs-role-based-authorization-tutorial-with-example-api)
+本博客翻译自[Node.js - Role Based Authorization Tutorial with Example API](https://jasonwatmore.com/post/2018/11/28/nodejs-role-based-authorization-tutorial-with-example-api)，本人的CSDN博客为：[Node.js-具有示例API的基于角色的授权教程](https://blog.csdn.net/ccf19881030/article/details/107804978)
 出版时间：2018年11月28日
 最后更新：2020年7月2日
 
