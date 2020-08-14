@@ -27,9 +27,7 @@ a collection of simple demos of React.js
 最近由于在使用Nodejs和TypeScript编写一些后台接口，涉及到Express、Vue.js、Mqtt、Mariadb、SQLServer、Mqtt、Websocket、redis等nodejs相关库的使用，在Github上面找到了一些不错的代码示例以及一些博客，这里分享给大家。
 ## 一些技术博客
 ### 1. [https://jasonwatmore.com/](https://jasonwatmore.com/)
-![jasonWatmore_Blogs](https://img-blog.csdnimg.cn/20200805203719610.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NjZjE5ODgxMDMw,size_16,color_FFFFFF,t_70)
 博主是一位澳大利亚悉尼的网站开发者，从1998年起就开始编写网站，其Github地址为：[https://github.com/cornflourblue](https://github.com/cornflourblue)
-![cornflourblue](https://img-blog.csdnimg.cn/20200805203953239.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NjZjE5ODgxMDMw,size_16,color_FFFFFF,t_70)
 从他的博客和Github上的代码来看，其主要关注于网站的开发，涉及到angular、vue、react等前端框架，还有Nodejs、Asp.net等后端语言，有3000多followers。
 感兴趣的可以看一下他的博客，写得蛮不错的。
 
