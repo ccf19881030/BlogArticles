@@ -1,5 +1,3 @@
-@[TOC](Signals-The Boost C++ Libraries)
-
 本文翻译自[Signals](https://theboostcpplibraries.com/boost.signals2-signals)
 
 # Signals
