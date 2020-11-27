@@ -55,4 +55,18 @@ https://attacomsian.com/blog/gson-read-write-json-stream
 How to read and write JSON using Gson in Java
 https://attacomsian.com/blog/gson-read-write-json
 
+node-jwt-authentication-api
+NodeJS JWT Authentication API
 
+For documentation and instructions check out https://jasonwatmore.com/post/2018/08/06/nodejs-jwt-authentication-tutorial-with-example-api
+
+vue-vuex-jwt-authentication-example
+Vue + Vuex - JWT Authentication Tutorial & Example
+
+To see a demo and further details go to http://jasonwatmore.com/post/2018/07/06/vue-vuex-jwt-authentication-tutorial-example
+
+https://github.com/cornflourblue/vue-vuex-jwt-authentication-example
+
+
+NodeJS + MongoDB - Simple API for Authentication, Registration and User Management
+https://jasonwatmore.com/post/2018/06/14/nodejs-mongodb-simple-api-for-authentication-registration-and-user-management
