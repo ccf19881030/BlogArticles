@@ -21,3 +21,4 @@ MongoDB和Redis都是NoSQL，采用结构型数据存储。二者在使用场景
 更偏重于进程顺序写入，虽然支持集群，也仅限于主-从模式。
 
  
+## [阿里云 CentOS7安装redis4.0.9并开启远程访问](https://www.cnblogs.com/jepson6669/p/9092634.html) 
