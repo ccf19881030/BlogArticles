@@ -24,6 +24,10 @@
   * Qt
   * Swift
   * HeadFirstBook
+  * Go
+  * Node.js
+  * Vue.js、React、Angular
+  * TypeScript
  
 * 2、IT技术网站链接
   * 著名的IT英文站点,见文件：[it_famous_website.md](it_famous_website.md)
