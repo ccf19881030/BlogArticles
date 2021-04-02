@@ -10,5 +10,5 @@ The Elastic Nodes example shows how to implement edges between nodes in a graph,
 ## [QT5 TUTORIAL QGRAPHICSVIEW ANIMATION - 2020](https://www.bogotobogo.com/Qt/Qt5_QGraphicsView_animation.php)
 ## [QT5 TUTORIAL FFMPEG CONVERTER USING QPROCESS - 2020](https://www.bogotobogo.com/Qt/Qt5_QProcess_QFileDialog_QTextEdit_FFmpeg.php)
 ## [https://bitbucket.org/ERaggi/](https://bitbucket.org/ERaggi/)
- 
+## [QT开发（三十九）——GraphicsView框架](https://blog.51cto.com/9291927/1879128)
 
