@@ -57,5 +57,6 @@ Network file transfer application for Windows, OS X, & Linux
 * [刘典武的CSDN博客](https://blog.csdn.net/feiyangqingyun)
 * [刘典武的博客园](https://www.cnblogs.com/feiyangqingyun)
 * [Qt编写自定义控件大全](https://blog.csdn.net/feiyangqingyun/article/details/53443488) 
+* [天山老妖S-Qt开发](https://blog.51cto.com/u_9291927/category19.html)
 
  个人感觉[QT5入门精讲(C++) - B站视频](https://www.bilibili.com/video/av50849127)讲得还不错，另外《Qt 5.9 C++开发指南》一书讲得也还可以，之前的《QT高级编程》和《C++ GUI Qt 4编程》很经典，不过是基于QT 4的，QT5相比较QT 4，API变化不少。
