@@ -1,4 +1,4 @@
-  ## [Qt 之镜像旋转(https://blog.csdn.net/liang19890820/article/details/51858986)
+  ## [Qt 之镜像旋转](https://blog.csdn.net/liang19890820/article/details/51858986)
   接口
 关于镜像旋转，QImage中有对应的接口，可以通过设定水平、垂直方向旋转：
 
