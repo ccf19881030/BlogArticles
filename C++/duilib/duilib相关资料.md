@@ -19,12 +19,30 @@ PC_UIKit是一个基于Duilib开发的Windows界面库。在原有功能的基�
 
 PC_UIKit软件包是一个在开放和参与性的环境中开发，并在MIT许可证下发布。PC_UIKit项目旨在提供一个高效、简约、显示效果统一的PC应用软件UI开发套件。我们邀请您参与到这个开放项目开发。
 
+## redrains的个人修改版本
+[redrains的个人修改版本](https://github.com/redrains/DuiLib_Redrain)
+
 # 二、Duilib文档和示例教程
 ## DuiLib 基础入门文档+视频教程，基于官方开源代码
 [https://github.com/nmgwddj/duilib_tutorial](https://github.com/nmgwddj/duilib_tutorial)
 
 ## Alberl 2013 duilib入门简明教程
 [2013 duilib入门简明教程](https://www.cnblogs.com/Alberl/category/520438.html)
+
+## Windows桌面软件美化界面：分享著名的VC++ DirectUI/duilib/SOUI/REDM，IMGUI和C#开源界面库
+[Windows桌面软件美化界面：分享著名的VC++ DirectUI/duilib/SOUI/REDM，IMGUI和C#开源界面库](https://libaineu2004.blog.csdn.net/article/details/77200641)
+
+## 仿酷狗音乐播放器已开源！
+[仿酷狗音乐播放器已开源！](https://blog.csdn.net/zhuhongshu/article/details/41037875/)
+
+## duilib 精品-Redrain
+[https://blog.csdn.net/zhuhongshu/category_2490923.html](https://blog.csdn.net/zhuhongshu/category_2490923.html)
+
+## duilib 自绘控件-Redrain
+[https://blog.csdn.net/zhuhongshu/category_2490901.html](https://blog.csdn.net/zhuhongshu/category_2490901.html)
+
+DuiLib使用心得-Redrain
+[https://blog.csdn.net/zhuhongshu/category_9263513.html](https://blog.csdn.net/zhuhongshu/category_9263513.html)
 
 # 三、基于Duilib的软件不完全列表
 [基于Duilib的软件不完全列表](https://github.com/duilib/duilib/wiki/%E5%9F%BA%E4%BA%8EDuilib%E7%9A%84%E8%BD%AF%E4%BB%B6%E4%B8%8D%E5%AE%8C%E5%85%A8%E5%88%97%E8%A1%A8)
