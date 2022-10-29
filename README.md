@@ -39,6 +39,8 @@
 
 * 3、技术类博客链接,见文件：[technique_blog_link.md](technique_blog_link.md)
 
+* 4、[awesome-cpp](https://github.com/fffaraz/awesome-cpp)
+A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
 
 
 
