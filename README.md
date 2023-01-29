@@ -45,6 +45,8 @@ A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny
 * 5、华为机试 OD刷题
 - [华为机试高频题目（Java实现）- 小朱小朱绝不服输
 的CSDN博客](https://blog.csdn.net/weixin_44052055/article/details/123930856)
+![image](https://user-images.githubusercontent.com/5925259/215339345-c95a6841-6442-4f0e-aae4-e71fffe0fb3a.png)
+
 - [华为机试（JAVA）真题Od - MISAYAONE的CSDN博客](https://renjie.blog.csdn.net/article/details/127947829)
 - [华为机试（Python）真题Od - MISAYAONE的CSDN博客](https://renjie.blog.csdn.net/article/details/127946125)
 - [华为机试（C++）真题Od - MISAYAONE的CSDN博客](https://renjie.blog.csdn.net/article/details/126965954)
