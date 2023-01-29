@@ -48,8 +48,14 @@ A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny
 ![image](https://user-images.githubusercontent.com/5925259/215339345-c95a6841-6442-4f0e-aae4-e71fffe0fb3a.png)
 
 - [华为机试（JAVA）真题Od - MISAYAONE的CSDN博客](https://renjie.blog.csdn.net/article/details/127947829)
+![image](https://user-images.githubusercontent.com/5925259/215339418-48eb1b1c-b448-4a2e-aa92-c74849b4c55d.png)
+
 - [华为机试（Python）真题Od - MISAYAONE的CSDN博客](https://renjie.blog.csdn.net/article/details/127946125)
+![image](https://user-images.githubusercontent.com/5925259/215339439-dd772923-0b13-4761-b696-beee532c7897.png)
+
 - [华为机试（C++）真题Od - MISAYAONE的CSDN博客](https://renjie.blog.csdn.net/article/details/126965954)
+![image](https://user-images.githubusercontent.com/5925259/215339458-6d0bfc2f-df41-42ad-9021-6c6860970ab6.png)
+
 - [牛客网华为机试108题](https://www.nowcoder.com/exam/oj/ta?tpId=37)
 ![image](https://user-images.githubusercontent.com/5925259/215339197-972cdc68-444e-4791-9643-bed92d82386f.png)
 
