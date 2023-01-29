@@ -42,6 +42,16 @@
 * 4、[awesome-cpp](https://github.com/fffaraz/awesome-cpp)
 A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
 
+* 5、华为机试 OD刷题
+- [华为机试高频题目（Java实现）- 小朱小朱绝不服输
+的CSDN博客](https://blog.csdn.net/weixin_44052055/article/details/123930856)
+- [华为机试（JAVA）真题Od - MISAYAONE的CSDN博客](https://renjie.blog.csdn.net/article/details/127947829)
+- [华为机试（Python）真题Od - MISAYAONE的CSDN博客](https://renjie.blog.csdn.net/article/details/127946125)
+- [华为机试（C++）真题Od - MISAYAONE的CSDN博客](https://renjie.blog.csdn.net/article/details/126965954)
+- [牛客网华为机试108题](https://www.nowcoder.com/exam/oj/ta?tpId=37)
+![image](https://user-images.githubusercontent.com/5925259/215339197-972cdc68-444e-4791-9643-bed92d82386f.png)
+
+
 
 
 
