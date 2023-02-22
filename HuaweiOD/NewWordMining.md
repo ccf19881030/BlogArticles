@@ -13,14 +13,16 @@
          1 <= word的长度 <= 2000
 
 示例
-
+```
 示例1
 输入：qweebaewqd
       qwe
 输出：2
 说明：起始索引等于0的子串是"qwe",它是word的新词。
      起始索引等于6的子串是"ewq"，它是word的新词。
-     
+```
+
+```
 示例2
 输入：abab
      ab
@@ -28,7 +30,7 @@
 说明：起始索引等于0的子串"ab"，它是 word的新词.
      起始索引等于1的子串"ba"，它是 word的新词。
      起始索引等于2的字串"ab"，它是 word的新词。
-	 
+```	 
 ## 解法1：
 ```cpp
 #include<iostream>
@@ -120,7 +122,7 @@ int main()
 ```
      
 ## 解题思路2
-可以采用滑动窗口算法，这道题和[力扣76题.最小覆盖字串](https://leetcode.cn/problems/minimum-window-substring/)以及力扣567题.字符串的排列很类似。
+可以采用[滑动窗口算法](https://labuladong.gitee.io/algo/di-ling-zh-bfe1b/wo-xie-le--f02cd/)，这道题和[力扣76题.最小覆盖字串](https://leetcode.cn/problems/minimum-window-substring/)以及[力扣567题.字符串的排列](https://leetcode.cn/problems/permutation-in-string/)很类似。
 C++实现代码如下：
 ```cpp
 // 知识图谱新词挖掘
