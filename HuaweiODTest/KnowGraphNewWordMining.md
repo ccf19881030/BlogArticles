@@ -33,6 +33,83 @@
 可以采用滑动窗口算法，这道题和力扣76题.最小覆盖字串以及力扣567题.字符串的排列很类似。
 C++实现代码如下：
 ```cpp
+// 知识图谱新词挖掘
+// https://renjie.blog.csdn.net/article/details/128571197
 
+#include<iostream>
+#include<unordered_map>
+#include <string>
+using namespace std;
 
+// 滑动窗口算法
+int slidingWindow(const string &content, const string &word)
+{
+    if (content.size() < word.size()) {
+        return 0;
+    }
+    if (word.empty()) {
+        return 0;
+    }
+    unordered_map<char, int> need, window;
+    for (char c : word) {
+        need[c]++;
+    }
+
+    int cnt = 0;
+    int left = 0, right = 0;
+    int valid = 0;
+
+    // 遍历content字符串
+    while (right < content.size()) {
+        // a 是将要移入窗口的字符
+        char a = content[right];
+        // 增大窗口
+        right++;
+        // 进行窗口内数据的一系列更新
+        if (need.count(a)) {
+            window[a]++;
+            // 如果content中的某个字符个数和word中的个数相同，则valid有效字符计数器加1
+            if (need[a] == window[a]) {
+                valid++;
+            }
+        }
+
+        // 此处可以 debug 窗口的位置
+        //printf("window: [%d, %d)\n", left, right);
+
+        // 判断左侧窗口是否需要收缩
+        // 本题移动left缩小窗口的时机是窗口大小大于word.size()时，因为排列（新词），显然长度是一样的
+        while (right - left >= word.size()) {
+            // 在这里更新找到新词的计数器，当valid == need.size()时，说明窗口包含合格的新词
+            if (valid == need.size()) {
+                cnt++;
+            }
+            // d 是将要移出窗口的字符
+            char d = content[left];
+            // 缩小窗口
+            left++;
+            // 进行窗口的一系列更新
+            if (need.count(d)) {
+                if (window[d] == need[d]) {
+                    valid--;
+                }
+                window[d]--;
+            }
+        }
+    }
+    return cnt;
+}
+
+int main()
+{
+    //输入处理
+    string content;
+    string word;
+
+    while (cin >> content >> word) {
+        std::cout << slidingWindow(content, word) << std::endl;
+    }
+
+    return 0;
+}
 ```
