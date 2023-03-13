@@ -34,23 +34,24 @@
 1 <= g[i], s[j] <= 2^31 - 1
 ```
 
-## 思路
+## 解法一、排序+贪心算法+双指针
+### 思路
 ```
 先进行排序，从后往前遍历胃口数列，对于一个胃口，当前最大的饼干数如果不能满足要求，就再往前遍历一个胃口，看看当前最大的饼干能不能满足较小的胃口。
 最后终止条件为遍历完所有的胃口，或者遍历完所有的饼干数。
 ```
 
-## 解题方法
+### 解题方法
 先排序，再采用贪心算法
 
-## 复杂度
+### 复杂度
 ```
 时间复杂度: O(mlogm+nlogn)
 排序的开销
 空间复杂度: O(logm+logn)
 排序的开销
 ```
-## Java实现
+### Java实现
 ```java
 class Solution {
     public int findContentChildren(int[] g, int[] s) {
@@ -72,7 +73,7 @@ class Solution {
 }
 ```
 
-## C++实现
+### C++实现
 ```cplus
 // 排序+贪心算法+双指针
 // 每次将最大的饼干分给胃口最大的孩子
@@ -100,3 +101,34 @@ public:
     }
 };
 ```
+## 解法二、排序 + 双指针 + 贪心
+![image](https://user-images.githubusercontent.com/5925259/224753704-88fdf0fa-5c7d-4a9b-a0e4-a2e86548d44f.png)
+
+### C++实现
+```cplus
+class Solution {
+public:
+    int findContentChildren(vector<int>& g, vector<int>& s) {
+        sort(g.begin(), g.end());
+        sort(s.begin(), s.end());
+        int m = g.size(), n = s.size();
+        int count = 0;
+        for (int i = 0, j = 0; i < m && j < n; i++, j++) {
+            while (j < n && g[i] > s[j]) {
+                j++;
+            }
+            if (j < n) {
+                count++;
+            }
+        }
+        return count;
+    }
+};
+```
+
+### 复杂度分析
+
+-时间复杂度：
+O(mlogm+nlogn)，其中 m 和 n 分别是数组 s 的长度。对两个数组排序的时间复杂度是 O(mlogm+nlogn)，遍历数组的时间复杂度是 O(m+n)，因此总时间复杂度是 O(mlogm+nlogn)。
+-空间复杂度：O(logm+logn)，其中 m 和 n 分别是数组 g 和 s 的长度。空间复杂度主要是排序的额外空间开销。
+
