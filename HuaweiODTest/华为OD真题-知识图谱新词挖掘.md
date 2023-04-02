@@ -164,7 +164,6 @@ int main()
     int result = GetWordCntOfContent(content, word);
     std::cout << result << std::endl;
 
-
     return 0;
 }
 ```
