@@ -1,4 +1,4 @@
-# [知识图谱新词挖掘1](https://renjie.blog.csdn.net/article/details/128571197)
+# [知识图谱新词挖掘1](https://ccf19881030.blog.csdn.net/article/details/129162777)
 题目描述：小华负责公司知识图谱产品，现在要通过新词挖掘完善知识图谱。
   新词挖掘：给出一个待挖掘文本内容字符串Content和一个词的字符串word，找到content中所有word的新词。
   新词：使用词word的字符串排列形成的字符串。
@@ -31,11 +31,9 @@
      
 ## 解题思路
 可以采用滑动窗口算法，这道题和力扣76题.最小覆盖字串以及力扣567题.字符串的排列很类似。
-C++实现代码如下：
-```cpp
-// 知识图谱新词挖掘
-// https://renjie.blog.csdn.net/article/details/128571197
 
+## C++实现代码如下：
+```cpp
 #include<iostream>
 #include<unordered_map>
 #include <string>
@@ -113,3 +111,61 @@ int main()
     return 0;
 }
 ```
+
+## C++实现2：
+```cpp
+#include <iostream>
+#include <vector>
+#include <unordered_map>
+#include <algorithm>
+#include <string>
+
+using namespace std;
+
+int GetWordCntOfContent(string& content, string& word)
+{
+    int res = 0;
+    vector<char> wordVec;
+    for (char ch : word) {
+        wordVec.push_back(ch);
+    }
+    sort(wordVec.begin(), wordVec.end());
+
+    int left = 0;
+    int right = word.size();
+    while (right <= content.size()) {
+        string tempStr = content.substr(left, right - left);
+        sort(tempStr.begin(), tempStr.end());
+        bool isOk = true;
+        for (int i = 0; i < tempStr.size(); i++) {
+            if (tempStr[i] != wordVec[i]) {
+                isOk = false;
+                break;
+            }
+        }
+
+        if (isOk) {
+            res++;
+        }
+        left++;
+        right++;
+    }
+    return res;
+}
+
+int main()
+{
+    string content;
+    string word;
+
+    getline(cin, content);
+    getline(cin, word);
+
+    int result = GetWordCntOfContent(content, word);
+    std::cout << result << std::endl;
+
+
+    return 0;
+}
+```
+
