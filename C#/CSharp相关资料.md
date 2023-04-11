@@ -32,11 +32,11 @@ Code samples for the book Professional C# 7 and .NET Core 2.0 (with updates for 
 ### [ASP.NET Core文档](https://docs.microsoft.com/zh-cn/aspnet/core/opbuildpdf/0fa49936/toc.pdf?branch=live&view=aspnetcore-3.1)
 ## 5、C#的一些项目
 - [QR Code Encoder and Decoder C# Class Library for VS 2022 .NET 6.0 (Version 3.1.0)](https://www.codeproject.com/Articles/1250071/QR-Code-Encoder-and-Decoder-Csharp-Class-Library-f)
-- [Pdf File Writer CSharp Library for VS 2022 .NET 6.0](https://www.codeproject.com/Articles/570682/PDF-File-Writer-Csharp-Class-Library-Version)
 ```
 QR 码库允许程序创建 QR 码图像或读取包含一个或多个 QR 码的图像
 QR 码库允许您的程序创建（编码）QR 码图像或读取（解码）包含一个或多个 QR 码的图像。代码已升级到 VS 2022 和 .NET 6.0。
 ```
+- [Pdf File Writer CSharp Library for VS 2022 .NET 6.0](https://www.codeproject.com/Articles/570682/PDF-File-Writer-Csharp-Class-Library-Version)
 - [https://github.com/Uzi-Granot/PdfFileWriter](https://github.com/Uzi-Granot/PdfFileWriter)
 ```
 PDF File Writer 是一个 C# .NET 类库，允许应用程序创建 PDF 文件。该代码是为 VS 2022 和 .NET6 开发的。最新更新是一次重大升级。
