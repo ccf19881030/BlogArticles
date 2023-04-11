@@ -33,7 +33,16 @@ Code samples for the book Professional C# 7 and .NET Core 2.0 (with updates for 
 ## 5、C#的一些项目
 - [QR Code Encoder and Decoder C# Class Library for VS 2022 .NET 6.0 (Version 3.1.0)](https://www.codeproject.com/Articles/1250071/QR-Code-Encoder-and-Decoder-Csharp-Class-Library-f)
 - [Pdf File Writer CSharp Library for VS 2022 .NET 6.0](https://www.codeproject.com/Articles/570682/PDF-File-Writer-Csharp-Class-Library-Version)
+```
+QR 码库允许程序创建 QR 码图像或读取包含一个或多个 QR 码的图像
+QR 码库允许您的程序创建（编码）QR 码图像或读取（解码）包含一个或多个 QR 码的图像。代码已升级到 VS 2022 和 .NET 6.0。
+```
 - [https://github.com/Uzi-Granot/PdfFileWriter](https://github.com/Uzi-Granot/PdfFileWriter)
+```
+PDF File Writer 是一个 C# .NET 类库，允许应用程序创建 PDF 文件。该代码是为 VS 2022 和 .NET6 开发的。最新更新是一次重大升级。
+PDF 文件编写器 C# 类库为 .NET 应用程序提供了生成 PDF 文档的能力。该库使应用程序免受 PDF 文件结构细节的影响。
+该库支持：表格、文本、图像、表格、图形、条形码、网络链接、图表、便签、加密等。文章连同所附的源代码提供了详细的文档。
+```
 - [PDF File Analyzer (Version 3.0 for VS 2022 .NET 6.0)](https://www.codeproject.com/Articles/450254/PDF-File-Analyzer-With-Csharp-Parsing-Classes-Vers%22%3EPDF)
 - [https://github.com/Uzi-Granot/PdfFileAnalyzer](https://github.com/Uzi-Granot/PdfFileAnalyzer)
 - [CodeProject.AI](https://github.com/codeproject/CodeProject.AI-Server)
