@@ -38,5 +38,7 @@ Code samples for the book Professional C# 7 and .NET Core 2.0 (with updates for 
 - [https://github.com/Uzi-Granot/PdfFileAnalyzer](https://github.com/Uzi-Granot/PdfFileAnalyzer)
 - [CodeProject.AI](https://github.com/codeproject/CodeProject.AI-Server)
 - [https://www.codeproject.com/AI/docs/about/about.html](https://www.codeproject.com/AI/docs/about/about.html)
+```
 CodeProject SenseAI is a self contained service that software developers can include in, and distribute with, their applications in order to augment their apps with the power of AI.
+```
 
