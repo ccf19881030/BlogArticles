@@ -10,3 +10,4 @@
 - [Combining Raw Input and keyboard Hook to selectively block input from multiple keyboards](https://www.codeproject.com/Articles/716591/Combining-Raw-Input-and-keyboard-Hook-to-selective)
 - [Joystick-Input-Examples](https://github.com/MysteriousJ/Joystick-Input-Examples)
 - [windows-touchpad](https://github.com/ichisadashioko/windows-touchpad)
+- [Mobile TouchPad](https://www.codeproject.com/script/Contests/Winners.aspx?obtid=1&cmpTpId=2&cid=0)
