@@ -2,6 +2,12 @@
 Code Project精彩系列（转）
 Applications
 
+- [CodeProject.AI Server: AI the easy way.](https://www.codeproject.com/Articles/5322557/CodeProject-AI-Server-AI-the-easy-way)
+CodeProject.AI Server is a locally installed, self-hosted, fast, free and Open Source Artificial Intelligence server for any platform, any language. No off-device or out of network data transfer, no messing around with dependencies, and able to be used from any platform, any language. Runs as a Windows Service or a Docker container.
+
+- [BigDecimal in C#](https://www.codeproject.com/Articles/5366079/BigDecimal-in-Csharp)
+Recently, I considered writing my own BigInteger implementation. Although I managed to create one, its performance was way below the one from .NET implementation. So, I focused on something else: BigDecimal. So far, I didn't find an implementation that I liked, so, why not make my own?
+
 Crafting a C# forms Editor From scratch
 
 http://www.codeproject.com/csharp/SharpFormEditorDemo.asp
