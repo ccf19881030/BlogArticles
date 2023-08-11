@@ -8,6 +8,9 @@ CodeProject.AI Server is a locally installed, self-hosted, fast, free and Open S
 - [BigDecimal in C#](https://www.codeproject.com/Articles/5366079/BigDecimal-in-Csharp)
 Recently, I considered writing my own BigInteger implementation. Although I managed to create one, its performance was way below the one from .NET implementation. So, I focused on something else: BigDecimal. So far, I didn't find an implementation that I liked, so, why not make my own?
 
+- [Windows 11 Version Detection](https://www.codeproject.com/Articles/5336372/Windows-11-Version-Detection)
+In this article, you will see how to detect Windows 11 Version by using C# and C++.
+
 Crafting a C# forms Editor From scratch
 
 http://www.codeproject.com/csharp/SharpFormEditorDemo.asp
