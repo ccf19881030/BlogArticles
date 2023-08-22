@@ -15,6 +15,11 @@
 - [https://www.youtube.com/watch?v=QwQuro7ekvc&list=RDCMUC2KfmYEM4KCuA1ZurravgYw&start_radio=1](https://www.youtube.com/watch?v=QwQuro7ekvc&list=RDCMUC2KfmYEM4KCuA1ZurravgYw&start_radio=1)
 - [Spring Security Tutorial - [NEW] [2023]](https://www.youtube.com/watch?v=b9O9NI-RJ3o)
 - [Spring Boot 3 + Spring Security 6 - JWT Authentication and Authorisation [NEW] [2023]](https://www.youtube.com/watch?v=KxqlJblhzfI)
+- [Spring Boot Tutorial | Spring Data JPA | 2021](https://www.youtube.com/watch?v=8SGI_XS5OPw&list=PLwvrYc43l1MzeA2bBYQhCWr2gvWLs9A7S)
+
+## bezkoder的技术博客和源代码
+- [博客-Spring Boot Refresh Token with JWT example](https://www.bezkoder.com/spring-boot-refresh-token-jwt/)
+- [Github源代码-Spring Boot Refresh Token using JWT example - Expire and Renew JWT Token](https://github.com/bezkoder/spring-boot-refresh-token-jwt)
 
 
 
