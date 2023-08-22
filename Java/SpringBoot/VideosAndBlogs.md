@@ -3,6 +3,7 @@
 - [Spring Boot Tutorial For Beginners](youtube.com/watch?v=wsq1-m1dy_I)
 - [Spring boot 3.0 - Secure your API with JWT Token [2023]](https://www.youtube.com/watch?v=BVdQ3iuovg0)
 - [Spring boot 3 Keycloak integration for beginners | The complete Guide](https://www.youtube.com/watch?v=vmEWywGzWbA&list=PL41m5U3u3wwl5FoM2Y5gIu1Q-Wr5ascD_)
+- [Sample project on how to implement JWT security based using Spring boot 3 and Spring security 6](https://github.com/ali-bouali/spring-boot-3-jwt-security)
 - [Spring Boot 3.0 For Beginners](https://aliboucoding.com/courses/spring-boot-and-git-for-beginners-the-complete-guide/lectures/45764314)
 - [create-a-full-todo-list-application-using-spring-boot-and-angular-material](https://aliboucoding.com/p/create-a-full-todo-list-application-using-spring-boot-and-angular-material)
 - [https://aliboucoding.com/courses](https://aliboucoding.com/courses)
