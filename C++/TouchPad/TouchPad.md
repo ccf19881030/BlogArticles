@@ -14,3 +14,4 @@
 
 # Windows Gestures手势编程
 - [触控板和触摸屏动作数据解析(1)](https://yhsnlkm.github.io/2021/04/27/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E8%A7%A6%E6%8E%A7%E6%9D%BF%E5%92%8C%E8%A7%A6%E6%91%B8%E5%B1%8F%E5%8A%A8%E4%BD%9C%E6%95%B0%E6%8D%AE%E8%A7%A3%E6%9E%90-1/)
+- [简谈触摸板程序的实现（一）](https://blog.csdn.net/qq_34227242/article/details/79238936)
