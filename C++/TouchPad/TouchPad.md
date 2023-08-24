@@ -19,3 +19,4 @@
 鼠标手势、手势快捷键、 激活/启动应用、发送快捷键、三指拖拽、快速搜索、执行命令行脚本、资源管理器导航、微信多开、图片OCR、Lua脚本、自定义扩展等！
 一款小而美的应用，支持 win7/8/10/11
 Enjoy it ~
+- [https://github.com/zhaokeli/FastGestures/releases](https://github.com/zhaokeli/FastGestures/releases)
