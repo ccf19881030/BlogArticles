@@ -23,4 +23,6 @@ A multi-platform library for OpenGL, OpenGL ES, Vulkan, window and input
 - [GLEW-Getting started](https://www.glfw.org/docs/3.3/quick.html)
 - [GLFW Download](https://www.glfw.org/download)
 - [https://glew.sourceforge.net/](https://glew.sourceforge.net/)
-
+- [https://learnopengl-cn.github.io/](https://learnopengl-cn.github.io/)
+- [https://learnopengl.com/](https://learnopengl.com/)
+- [https://learnopengl-cn.readthedocs.io/zh/latest/](https://learnopengl-cn.readthedocs.io/zh/latest/)
