@@ -3,6 +3,7 @@
 - [Google Test and Mock Platform, Complete Tutorial. Part 1: Google Test](https://www.youtube.com/watch?v=JJqRlSTQlh4)
 - [Google Test and Mock Platform - Part 2: GMock Matchers](https://www.youtube.com/watch?v=sfJobi4b_pw)
 - [Google Test and Mock Platform - Part 3: Mocking Classes and Functions with GMock](https://www.youtube.com/watch?v=vxCH4AuVRgo)
+
 对应的Github源码地址为：
 - [C++ console application template using Bazel and googletest](https://github.com/ourarash/cpp-template)
 
