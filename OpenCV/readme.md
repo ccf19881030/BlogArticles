@@ -17,3 +17,10 @@
 ##### (I)、[EasyPR-Github](https://github.com/liuruoze/EasyPR)
 ##### (II)、[EasyPR--开发详解](http://www.cnblogs.com/asks/p/4372736.html)
 ##### (III)、[EasyPR--一个开源的中文车牌识别系统](http://www.cnblogs.com/subconscious/p/3979988.html)
+
+### OpenCV学习视频
+- [LEARN OPENCV C++ in 4 HOURS | Including 3x Projects | Computer Vision](https://www.youtube.com/watch?v=2FYm3GOonhk)
+- [murtazahassan/Learn-OpenCV-cpp-in-4-Hours](https://github.com/murtazahassan/Learn-OpenCV-cpp-in-4-Hours)
+- [LEARN OPENCV in 3 HOURS with Python | Including 3xProjects | Computer Vision](https://youtu.be/WQeoO7MI0Bs)
+- [Learn-OpenCV-in-3-hours](https://github.com/murtazahassan/Learn-OpenCV-in-3-hours)
+上面这两个油管博主[murtazahassan](https://www.youtube.com/@murtazasworkshop)的OpenCV C++和Python视频资料很nice!
