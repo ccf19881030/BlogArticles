@@ -59,6 +59,16 @@ A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny
 - [牛客网华为机试108题](https://www.nowcoder.com/exam/oj/ta?tpId=37)
 ![image](https://user-images.githubusercontent.com/5925259/215339197-972cdc68-444e-4791-9643-bed92d82386f.png)
 
+* 6. OpenCV学习
+- [LEARN OPENCV C++ in 4 HOURS | Including 3x Projects | Computer Vision](https://www.youtube.com/watch?v=2FYm3GOonhk)
+- [murtazahassan/Learn-OpenCV-cpp-in-4-Hours](https://github.com/murtazahassan/Learn-OpenCV-cpp-in-4-Hours)
+- [LEARN OPENCV in 3 HOURS with Python | Including 3xProjects | Computer Vision](https://youtu.be/WQeoO7MI0Bs)
+- [Learn-OpenCV-in-3-hours](https://github.com/murtazahassan/Learn-OpenCV-in-3-hours)
+- [OpenCV官网](https://opencv.org/)
+- [OpenCV-Get Started](https://opencv.org/get-started/)
+- [OpenCV Github仓库源代码](https://github.com/opencv/opencv)
+- [OpenCV tutorial](https://docs.opencv.org/master/d9/df8/tutorial_root.html)
+
 
 
 
